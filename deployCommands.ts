@@ -11,6 +11,7 @@ const commandFiles = fs
 // Grab the SlashCommandBuilder#toJSON() output of each command's data for deployment
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`)
+	//@ts-ignore
 	commands.push(command.data.toJSON())
 }
 
@@ -30,6 +31,7 @@ const rest = new REST({ version: "10" }).setToken(token)
 		})
 
 		console.log(
+			//@ts-ignore
 			`Successfully reloaded ${data.length} application (/) commands.`
 		)
 	} catch (error) {
