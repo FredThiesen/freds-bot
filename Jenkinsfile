@@ -14,7 +14,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "gnome-terminal -- screen -S bot npm start"
+                sh "sudo gnome-terminal -- screen -S bot npm start"
             }
         }
     }
