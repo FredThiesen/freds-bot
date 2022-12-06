@@ -36,15 +36,7 @@ module.exports = {
 
 		//send img as gif
 		await interaction.reply({
-			files: [
-				{
-					attachment: img,
-					name: "trigger.gif",
-					//set the file as a gif
-					//this is a workaround for discord.js not supporting gifs
-					//as of 2021-08-01
-				},
-			],
+			files: [img],
 		})
 	},
 }

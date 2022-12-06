@@ -10,12 +10,12 @@ moment.locale("pt-br")
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName("bobross")
-		.setDescription("O cara é uma obra de arte")
-		.addUserOption((option) =>
+		.setName("bobrosslink")
+		.setDescription("Uma obra de arte")
+		.addStringOption((option) =>
 			option
-				.setName("usuario")
-				.setDescription("O nome de usuário do maluco")
+				.setName("url")
+				.setDescription("O endereço da imagem (link)")
 				.setRequired(true)
 		),
 	async execute(interaction: CommandInteraction) {
@@ -25,12 +25,12 @@ module.exports = {
 
 		// if the user is not in a guild, interaction.member will be null
 
-		const inputUser = interaction.options.get("usuario")
+		const inputImage = interaction.options.get("url")
 
-		let avatar = inputUser?.user?.avatarURL({ forceStatic: true })
+		let image = inputImage?.value
 
 		const img = await handleImageGeneration(
-			String(avatar),
+			String(image),
 			ImageGeneratorEnum.BOBROSS
 		)
 
