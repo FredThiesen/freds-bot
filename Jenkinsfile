@@ -3,7 +3,7 @@ pipeline {
      stages {
 		stage ("kill current screens"){
 			steps{
-				sh "pkill screen"
+				sh "sudo pkill screen"
 			}
 		}
         stage("Build") {
