@@ -1,11 +1,11 @@
 pipeline {
      agent any
      stages {
-		stage("kill current screens"){
-			steps{
-				sh "pkill screen"
-			}
-		}
+		// stage("kill current screens"){
+		// 	steps{
+		// 		sh "pkill screen"
+		// 	}
+		// }
         stage("Build") {
             steps {
                 sh "npm install"
