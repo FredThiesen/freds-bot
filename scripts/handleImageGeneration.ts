@@ -6,6 +6,8 @@ export enum ImageGeneratorEnum {
 	RAINBOW = "RAINBOW",
 	BOBROSS = "BOBROSS",
 	NOTSTONK = "NOTSTONK",
+	STONKS = "STONKS",
+	RIP = "RIP",
 }
 
 export const handleImageGeneration = async (
@@ -27,6 +29,10 @@ export const handleImageGeneration = async (
 			return await new DIG.Bobross().getImage(url)
 		case ImageGeneratorEnum.NOTSTONK:
 			return await new DIG.NotStonk().getImage(url)
+		case ImageGeneratorEnum.STONKS:
+			return await new DIG.Stonk().getImage(url)
+		case ImageGeneratorEnum.RIP:
+			return await new DIG.Rip().getImage(url)
 		default:
 			return await new DIG.Delete().getImage(url)
 	}
