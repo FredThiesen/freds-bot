@@ -9,7 +9,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "pm2 start index.ts || pm2 restart index.ts"
+                sh "sudo pm2 start index.ts || sudo pm2 restart index.ts"
             }
         }
     }
