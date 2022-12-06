@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { CommandInteraction, SlashCommandBuilder } from "discord.js"
 import moment from "moment"
 import {

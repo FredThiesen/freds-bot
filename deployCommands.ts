@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { REST, Routes } from "discord.js"
 import { clientId, token } from "./config.json"
 import fs from "node:fs"

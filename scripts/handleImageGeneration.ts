@@ -1,3 +1,4 @@
+// @ts-nocheck
 import DIG from "discord-image-generation"
 
 export enum ImageGeneratorEnum {
