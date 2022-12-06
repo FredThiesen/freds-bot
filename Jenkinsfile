@@ -3,7 +3,7 @@ pipeline {
      stages {
 		stage("kill current screens"){
 			steps{
-				sh "sudo pkill screen"
+				sh "pkill screen"
 			}
 		}
         stage("Build") {
@@ -14,7 +14,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "sudo screen -S bot npm start"
+                sh "screen -S bot npm start"
             }
         }
     }
