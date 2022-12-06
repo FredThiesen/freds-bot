@@ -1,3 +1,6 @@
+//ignore ts erros in all file
+// @ts-nocheck
+
 // https://discord.com/api/oauth2/authorize?client_id=840577499885076520&permissions=8&scope=bot%20applications.commands
 
 // Require the necessary discord.js classes
