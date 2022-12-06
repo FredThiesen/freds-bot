@@ -1,22 +1,21 @@
-import {
-	CommandInteraction,
-	SlashCommandBuilder,
-	AttachmentBuilder,
-} from "discord.js"
-import DIG from "discord-image-generation"
+import { CommandInteraction, SlashCommandBuilder } from "discord.js"
+import moment from "moment"
 import {
 	handleImageGeneration,
 	ImageGeneratorEnum,
 } from "../scripts/handleImageGeneration"
 
+//set moment locale to pt-br
+moment.locale("pt-br")
+
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName("deletar")
-		.setDescription("Delete aquele cara chato.")
+		.setName("notstonk")
+		.setDescription("Stonks xd")
 		.addUserOption((option) =>
 			option
 				.setName("usuario")
-				.setDescription("Nome de usuário")
+				.setDescription("O nome de usuário do maluco")
 				.setRequired(true)
 		),
 	async execute(interaction: CommandInteraction) {
@@ -27,24 +26,25 @@ module.exports = {
 		// if the user is not in a guild, interaction.member will be null
 
 		const inputUser = interaction.options.get("usuario")
-		// console.log(inputUser)
 
 		let avatar = inputUser?.user?.avatarURL({ forceStatic: true })
 
-		// Make the image
-		// const img = await new DIG.Delete().getImage(avatar ? avatar : "")
 		const img = await handleImageGeneration(
 			String(avatar),
-			ImageGeneratorEnum.DELETAR
+			ImageGeneratorEnum.NOTSTONK
 		)
 
-		// Add the image as an attachement
-		let attach = new AttachmentBuilder(img, {
-			name: "delete.png",
-		})
-
+		//send img as gif
 		await interaction.reply({
-			files: [attach],
+			files: [
+				{
+					attachment: img,
+					name: "trigger.gif",
+					//set the file as a gif
+					//this is a workaround for discord.js not supporting gifs
+					//as of 2021-08-01
+				},
+			],
 		})
 	},
 }
