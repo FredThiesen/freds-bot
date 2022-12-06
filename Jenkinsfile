@@ -8,7 +8,7 @@ pipeline {
 		// }
         stage("Build") {
             steps {
-				sh "cp ~/freds-bot/config.json ."
+				sh "cp ~/config.json /freds-bot/"
                 sh "npm install"
 				sh "ts-node deployCommands.ts"
             }
