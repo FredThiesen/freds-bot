@@ -30,9 +30,13 @@ module.exports = {
 		// console.log(inputUser)
 
 		// get image from url with jimp
-		const imageUrl = url && url?.value ? url.value : userAvatar
+		let imageUrl = String(url && url?.value ? url.value : userAvatar)
 
-		let image = await jimp.read(String(imageUrl))
+		if (imageUrl?.match(/(\.webp)/gi)) {
+			imageUrl = imageUrl.replace("webp", "png")
+		}
+
+		let image = await jimp.read(imageUrl)
 
 		// resize image
 		image.resize(jimp.AUTO, 512)
