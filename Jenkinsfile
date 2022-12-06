@@ -1,7 +1,7 @@
 pipeline {
      agent any
      stages {
-		stage ("kill current screens"){
+		stage("kill current screens"){
 			steps{
 				sh "sudo pkill screen"
 			}
