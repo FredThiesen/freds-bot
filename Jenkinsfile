@@ -9,7 +9,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "screen -S bot npm start"
+                sh "npm run deploy"
             }
         }
     }
