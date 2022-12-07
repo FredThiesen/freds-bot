@@ -30,6 +30,9 @@ module.exports = {
 
 		let avatar = inputUser?.user?.avatarURL({ forceStatic: true })
 
+		console.log("esse cara é um bot?")
+		console.log(inputUser?.user?.bot ? "sim" : "não")
+
 		const img = await handleImageGeneration(
 			String(avatar),
 			ImageGeneratorEnum.BOBROSS
