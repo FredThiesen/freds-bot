@@ -10,7 +10,9 @@ const path = require("node:path")
 const { token } = require("./config.json")
 
 // Create a new client instance
-const client = new Client({ intents: [GatewayIntentBits.Guilds] })
+const client = new Client({
+	intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
+})
 
 client.commands = new Collection()
 
@@ -55,6 +57,14 @@ client.on(Events.InteractionCreate, async (interaction) => {
 			content: "There was an error while executing this command!",
 			ephemeral: true,
 		})
+	}
+})
+
+// check if user with username 'gutoloko1' send a message
+client.on(Events.MessageCreate, (message) => {
+	if (message.author.username === "gutoloko1") {
+		// react to that message with a rainbow emoji
+		message.react("🌈")
 	}
 })
 
