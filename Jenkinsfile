@@ -9,7 +9,7 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh "sudo pm2 start index.ts --watch -f || sudo pm2 restart index.ts --watch"
+                sh "sudo pm2 start index.ts --watch || sudo pm2 restart index.ts --watch"
             }
         }
     }
