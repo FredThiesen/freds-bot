@@ -1,3 +1,4 @@
+// @ts-nocheck
 import jimp from "jimp"
 export const createJimpGridImage = async () => {
 	const grid = await jimp.create(600, 700, "#F0F0F0")

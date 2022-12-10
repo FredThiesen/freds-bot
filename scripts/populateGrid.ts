@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { User } from "discord.js"
 import jimp from "jimp"
 import { BingoChart } from "../interfaces/BingoChart"

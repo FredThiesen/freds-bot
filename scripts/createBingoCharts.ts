@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { BingoChart } from "../interfaces/BingoChart"
 
 export const createBingoCharts = (events: string[], chartQty: number) => {
