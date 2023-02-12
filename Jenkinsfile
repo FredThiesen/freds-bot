@@ -1,6 +1,12 @@
 pipeline {
      agent any
      stages {
+		stage("Clean") {
+            steps {
+                sh "sudo rm -rf node_modules"
+				sh "sudo rm -rf /home/ubuntu/.npm/_cacache"
+            }
+        }
         stage("Build") {
             steps {
                 sh "npm install"
