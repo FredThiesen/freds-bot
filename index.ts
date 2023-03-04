@@ -67,16 +67,6 @@ client.on(Events.MessageCreate, (message: Message) => {
 	if (message.author.username === "gutoloko1") {
 		// react to that message with a rainbow emoji
 		message.react("🌈")
-		// react to that message with a banana
-		message.react("🍌")
-		// react to that message with a nerd emoji
-		message.react("👨‍🦲")
-		// react to that message with a yes emoji
-		message.react("👍")
-		// react to that message with a no emoji
-		message.react("👎")
-		// react to that message with a Brilliant
-		message.react("🤩")
 	}
 })
 
