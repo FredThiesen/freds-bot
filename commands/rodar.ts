@@ -19,10 +19,11 @@ module.exports = {
 	async execute(interaction: CommandInteraction) {
 		if (
 			isNaN(interaction.options.getInteger("lados")) ||
-			interaction.options.getInteger("lados") > 20
+			interaction.options.getInteger("lados") > 20 ||
+			interaction.options.getInteger("lados") < 6
 		)
 			return interaction.reply(
-				"O número de lados deve ser um número inteiro entre 1 e 20."
+				"O número de lados deve ser um número inteiro entre 6 e 20."
 			)
 		const lados = interaction.options.getInteger("lados")
 		const resultado = Math.floor(Math.random() * lados) + 1
