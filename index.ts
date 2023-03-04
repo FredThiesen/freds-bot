@@ -1,6 +1,8 @@
 //ignore ts erros in all file
 // @ts-nocheck
 
+import { Message } from "discord.js"
+
 // https://discord.com/api/oauth2/authorize?client_id=840577499885076520&permissions=8&scope=bot%20applications.commands
 
 // Require the necessary discord.js classes
@@ -61,14 +63,14 @@ client.on(Events.InteractionCreate, async (interaction) => {
 })
 
 // check if user with username 'gutoloko1' send a message
-client.on(Events.MessageCreate, (message) => {
+client.on(Events.MessageCreate, (message: Message) => {
 	if (message.author.username === "gutoloko1") {
 		// react to that message with a rainbow emoji
 		message.react("🌈")
 		// react to that message with a banana
 		message.react("🍌")
 		// react to that message with a nerd emoji
-		message.react("🤓")
+		message.react("👨‍🦲")
 		// react to that message with a yes emoji
 		message.react("👍")
 		// react to that message with a no emoji
