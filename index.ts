@@ -27,7 +27,7 @@ for (const file of commandFiles) {
 	const filePath = path.join(commandsPath, file)
 	const command = require(filePath)
 	// Set a new item in the Collection with the key as the command name and the value as the exported module
-	console.log(`Loading command ${command.data.name}`)
+	console.log(`Loading command ${command.data.name} `)
 	if ("data" in command && "execute" in command) {
 		console.log('Command has "data" and "execute"')
 		client.commands.set(command.data.name, command)
