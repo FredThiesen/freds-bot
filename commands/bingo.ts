@@ -51,7 +51,7 @@ module.exports = {
 
 		await interaction.reply({
 			//mention user
-			content: `Aqui está sua cartela, ${user}.`,
+			content: `Aqui está sua cartela, ${user}`,
 
 			files: [attach],
 		})
