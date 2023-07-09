@@ -1,0 +1,1662 @@
+{
+	"1": {
+		"1": {
+			"meridia": "Mazic",
+			"oferenda": "4 Ovo de Dragovo Dourado",
+			"kamas": 6948,
+			"meridiaBonus": "Os Arquimonstros aparecem 200% mais rápido, Recursos de todos os tipos têm um aumento de 100% na velocidade de reaparecer"
+		},
+		"2": {
+			"meridia": "Arouz",
+			"oferenda": "20x Aveia",
+			"kamas": 791,
+			"meridiaBonus": "Economia de Ingredientes (Os Fazendeiros economizam 10% de seus ingredientes na fabricação de itens.)"
+		},
+		"3": {
+			"meridia": "Orage",
+			"oferenda": "2x Lenço do Sparo",
+			"kamas": 5365,
+			"meridiaBonus": "Pontos de Experiencia (+75% no XP dos Monstros da Arca de Otomai)"
+		},
+		"4": {
+			"meridia": "Thomahon",
+			"oferenda": "2x Rabo de Wolvexugo",
+			"kamas": 38702,
+			"meridiaBonus": "Espólio (+75% nos espólios dos Monstros das Presas de Vidro)"
+		},
+		"5": {
+			"meridia": "Ling",
+			"oferenda": "12x Madeira de Teixo",
+			"kamas": 3518,
+			"meridiaBonus": "Abundancia de Madeira (+150% de Madeira de Teixo e Madeira de Bambu coletados pelos Lenhadores)"
+		},
+		"6": {
+			"meridia": "Sebklav",
+			"oferenda": "2x Pelos de Wabbit Gowdo",
+			"kamas": 3254,
+			"meridiaBonus": "Missão repetitiva(Farinha Assassina fica disponível perto do ateliê dos Padeiros do Vilarejo de Amakna)."
+		},
+		"7": {
+			"meridia": "Yvad",
+			"oferenda": "7x Focinho de Javali",
+			"kamas": 1055,
+			"meridiaBonus": "Desafios Aumentados (+150% nos Desafios sobre as criaturas do tipo Animais da Floresta.)"
+		},
+		"8": {
+			"meridia": "Leszak",
+			"oferenda": "2x Toalha de Praia",
+			"kamas": 791,
+			"meridiaBonus": "Pontos de Experiencia (+125% na experiência obtida no Castelo Arenoso.)"
+		},
+		"9": {
+			"meridia": "Stun",
+			"oferenda": "2x Espada Sagrada",
+			"kamas": 3518,
+			"meridiaBonus": "Qualidade dos itens (Melhora na qualidade dos itens fabricados na cidade de Bonta.)"
+		},
+		"10": {
+			"meridia": "Trôma",
+			"oferenda": "2x Asa de Dragoperu Dourado",
+			"kamas": 9103,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Esmeralda darão à luz um filhote extra.)"
+		},
+		"11": {
+			"meridia": "Ashvey",
+			"oferenda": "2x Espelho de Dopel",
+			"kamas": 2506,
+			"meridiaBonus": "Espólio (+100% Drops na região do Vilarejo dos Diabretes)"
+		},
+		"12": {
+			"meridia": "Rojers",
+			"oferenda": "12x Prata",
+			"kamas": 4793,
+			"meridiaBonus": "Abundancia de Minérios (+150% de Prata coletados pelos Mineiros)"
+		},
+		"13": {
+			"meridia": "Katlestyn",
+			"oferenda": "2 Pena do Pekegwin",
+			"kamas": 15524,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 15 minutos na zona do Lago Congelado.)"
+		},
+		"14": {
+			"meridia": "Guigui",
+			"oferenda": "2 Maléolo de Yomi Gelifox",
+			"kamas": 42352,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Garganta Spargo)"
+		},
+		"15": {
+			"meridia": "Poupline",
+			"oferenda": "2 Bava de Nojoso",
+			"kamas": 10511,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona da Turfeira Nauseabunda.)"
+		},
+		"16": {
+			"meridia": "Bubba",
+			"oferenda": "2 Relíquia de Família",
+			"kamas": 5541,
+			"meridiaBonus": "Espólio (+75% Drops contra Fantasmas)"
+		},
+		"17": {
+			"meridia": "Kia",
+			"oferenda": "7 Pata de Arakne",
+			"kamas": 439,
+			"meridiaBonus": "Desafio Extra (+1 Desafios contra Araknes)"
+		},
+		"18": {
+			"meridia": "Yecetu",
+			"oferenda": "14 Robalo Arte]",
+			"kamas": 2418,
+			"meridiaBonus": "Abundancia de Peixe(+150% Lúcio, Enguia, Perca e Pacamão coletados pelos Pescadores)"
+		},
+		"19": {
+			"meridia": "Eskarina",
+			"oferenda": "3 Pelos de Pandora",
+			"kamas": 43980,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra Monstros de Pandawa)"
+		},
+		"20": {
+			"meridia": "Inkola",
+			"oferenda": "2 Pulgas Saltadoras",
+			"kamas": 12006,
+			"meridiaBonus": "Espólio (+125% Drops na Masmorra do Rato de Bonta)"
+		},
+		"21": {
+			"meridia": "Magikow",
+			"oferenda": "1 Garrafa de Glutoburg",
+			"kamas": 8752,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando na zona Limites da Floresta Maléfica)"
+		},
+		"22": {
+			"meridia": "Danizzal",
+			"oferenda": "2 Bráctea de Maerva",
+			"kamas": 14293,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 10 minutos na zona da Selva Obscura)"
+		},
+		"23": {
+			"meridia": "Kestra",
+			"oferenda": "5 Carne Moída",
+			"kamas": 439,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Moída coletados pelos Caçadores)"
+		},
+		"24": {
+			"meridia": "Shiva",
+			"oferenda": "2 Broto de Arvraknídeo Sombrio Irascível",
+			"kamas": 18383,
+			"meridiaBonus": "Coletores Gananciosos (+300% Drops para Coletores na zona da Clareira do Carvalho Mole)"
+		},
+		"25": {
+			"meridia": "Billfer",
+			"oferenda": "2 Tíbia de Koalak Coveiro",
+			"kamas": 8004,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona do Cemitério Primitivo)"
+		},
+		"26": {
+			"meridia": "Pierrock",
+			"oferenda": "3 Martelo de Graveto",
+			"kamas": 307,
+			"meridiaBonus": "Economia de Ingredientes (10% Economia de Ingredientes quando fabricando para Ferreiros)"
+		},
+		"27": {
+			"meridia": "Maribri",
+			"oferenda": "10 Frostiz",
+			"kamas": 12006,
+			"meridiaBonus": "Abundancia de Colheita (+150% Frostiz coletados pelos Fazendeiros)"
+		},
+		"28": {
+			"meridia": "Koppapi",
+			"oferenda": "2 Rabo de Rato Hioativo",
+			"kamas": 22121,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Calabouço do Rato do Castelo de Amakna)"
+		},
+		"29": {
+			"meridia": "Krala",
+			"oferenda": "11 Lã de Papatudo",
+			"kamas": 747,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Canto dos Papatudos)"
+		},
+		"30": {
+			"meridia": "Lorf",
+			"oferenda": "2 Sépala de Nerva",
+			"kamas": 14777,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Selva Obscura)"
+		},
+		"31": {
+			"meridia": "Teskirf",
+			"oferenda": "15 Menta Selvagem",
+			"kamas": 1495,
+			"meridiaBonus": "Abundancia de Plantas (+125% Menta Selvagem (planta) coletados pelos Alquimistas)"
+		}
+	},
+
+	"2": {
+		"1": {
+			"meridia": "Tolgnas",
+			"oferenda": "4 Poção de Minicura Superior",
+			"kamas": 307,
+			"meridiaBonus": "Cheio de Vida (300% mais rápido na regeneração de PV e 100% mais nas curas por consumíveis)"
+		},
+		"2": {
+			"meridia": "Ruevas",
+			"oferenda": "6 Rocambole de Carne",
+			"kamas": 439,
+			"meridiaBonus": "Espólios e experiência de Papatudos (+75% XP & Drops contra Papatudos, Papamutes e Papakools)"
+		},
+		"3": {
+			"meridia": "Marke",
+			"oferenda": "6 Gobião Fatiado",
+			"kamas": 307,
+			"meridiaBonus": "Linha de Produção (25% chance de Pescadores fabricarem um item extra)"
+		},
+		"4": {
+			"meridia": "Eritem",
+			"oferenda": "2 Molar de Texaice",
+			"kamas": 42748,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Presas de Vidro)"
+		},
+		"5": {
+			"meridia": "Val",
+			"oferenda": "4 Pele de Coolobra",
+			"kamas": 5233,
+			"meridiaBonus": "Espólio (+125% Drops na zona do Calabouço Caverna dos Bulbos)"
+		},
+		"6": {
+			"meridia": "Misdup",
+			"oferenda": "8 Anel de Sabedoria",
+			"kamas": 791,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando na zona da Planície dos Scarafolhas)"
+		},
+		"7": {
+			"meridia": "Kimykay",
+			"oferenda": "2 Osso de Fantasma Pândulo",
+			"kamas": 39889,
+			"meridiaBonus": "Estrelas da Sorte (+1 Star aparece a cada 5 minutos na zona da Ilha de Grobe)"
+		},
+		"8": {
+			"meridia": "Eramas",
+			"oferenda": "30 Madeira de Freixo",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de madeira (+125% Madeira de Freixo coletados por Lenhadores)"
+		},
+		"9": {
+			"meridia": "Kilistin",
+			"oferenda": "4 Unha de Kanigre",
+			"kamas": 307,
+			"meridiaBonus": "Pontos de Experiencia (+150% XP de Kanigres)"
+		},
+		"10": {
+			"meridia": "Meash",
+			"oferenda": "5 Ponta de Dragoperu Ruivo Selvagem",
+			"kamas": 5673,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Ruivo darão a luz a um bebe extra)"
+		},
+		"11": {
+			"meridia": "Bazukana",
+			"oferenda": "2 Mama Pingwin Down",
+			"kamas": 18955,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Lago Congelado)"
+		},
+		"12": {
+			"meridia": "Karlita",
+			"oferenda": "12 Canino de Milovó",
+			"kamas": 11126,
+			"meridiaBonus": "Desafios Aumentados (+150% nos Desafios contra todos os tipos de Milobos)"
+		},
+		"13": {
+			"meridia": "Edyxo",
+			"oferenda": "20 Cobre",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de minério (+150% Cobre coletados por Mineiros)"
+		},
+		"14": {
+			"meridia": "Duf",
+			"oferenda": "5 Shigekax de Maracujá",
+			"kamas": 747,
+			"meridiaBonus": "Rosado (+100% XP com a Maldição do Rosadim)"
+		},
+		"15": {
+			"meridia": "Guss",
+			"oferenda": "2 Folha de Galho Curativo",
+			"kamas": 21814,
+			"meridiaBonus": "Pontos de Experiencia (+125% XP na zona da Clareira do Carvalho Mole)"
+		},
+		"16": {
+			"meridia": "Tehego",
+			"oferenda": "3 Carne Moída",
+			"kamas": 439,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando for Caçadores)"
+		},
+		"17": {
+			"meridia": "Eidnas",
+			"oferenda": "11 Cogumelo",
+			"kamas": 3518,
+			"meridiaBonus": "Espólio (+75% Drops contra Monstros do tipo Cogumelo)"
+		},
+		"18": {
+			"meridia": "Amirniana",
+			"oferenda": "5 Broto de Arvraknídeo",
+			"kamas": 1759,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Domínio Ancestral)"
+		},
+		"19": {
+			"meridia": "Karat",
+			"oferenda": "25 Peixe-gatinho",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de Peixe (+100% Peixes coletados por Pescadores)"
+		},
+		"20": {
+			"meridia": "Atog",
+			"oferenda": "2 Traseiro do Bitufo Aéreo",
+			"kamas": 26124,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Tronco da Árvore Hakam)"
+		},
+		"21": {
+			"meridia": "Bii",
+			"oferenda": "8 Cerveja de Bwork",
+			"kamas": 3518,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Gisgul, a Vila Devastada)"
+		},
+		"22": {
+			"meridia": "Ludobel",
+			"oferenda": "2 Pele de Dragosa",
+			"kamas": 14293,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Santuário dos Dragovos)"
+		},
+		"23": {
+			"meridia": "Rumo",
+			"oferenda": "20 Aveia",
+			"kamas": 791,
+			"meridiaBonus": "Geração de Recursos (+150% de aceleração no reaparecimento de todos os Recursos Coletáveis na zona da Planícies de Cania)"
+		},
+		"24": {
+			"meridia": "Vinstyl",
+			"oferenda": "4 Bico do Tofu",
+			"kamas": 483,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 5 minutos na zona da Túneis Subterrâneos de Astrub)"
+		},
+		"25": {
+			"meridia": "Kanabal",
+			"oferenda": "2 Osso de Fantasma Leopardo",
+			"kamas": 32281,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Ilha de Grobe)"
+		},
+		"26": {
+			"meridia": "Krisdip",
+			"oferenda": "3 Pele de Minoskito",
+			"kamas": 12866,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra Minos)"
+		},
+		"27": {
+			"meridia": "Tiko",
+			"oferenda": "3 Carne Sangrenta",
+			"kamas": 4266,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Sangrenta coletados pelos Caçadores)"
+		},
+		"28": {
+			"meridia": "Fitsef",
+			"oferenda": "8 Bolinho de gramarão",
+			"kamas": 307,
+			"meridiaBonus": "Presentes Surpresa (Trikortritt Surprise disponível como um Drop Global)"
+		},
+		"29": {
+			"meridia": "Yalpriaf",
+			"oferenda": "2 Nadadeira de Competição",
+			"kamas": 791,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP), Espólio (+100% Drops), e Experiencia em Profissão(+50% XP em todas as Profissões)"
+		}
+	},
+	"3": {
+		"1": {
+			"meridia": "Jonat",
+			"oferenda": "1 Bastão Espiritual",
+			"kamas": 791,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando em Brakmar)"
+		},
+		"2": {
+			"meridia": "Meluze",
+			"oferenda": "2 Crânio de Aventureiro",
+			"kamas": 15261,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Vale da Mortfataw)"
+		},
+		"3": {
+			"meridia": "Marifriss",
+			"oferenda": "3 Madeira de Cárpino",
+			"kamas": 8004,
+			"meridiaBonus": "Abundancia de madeira (+150% Madeira de Cárpino e Madeira de Bambu Sombrio coletados por Lenhadores)"
+		},
+		"4": {
+			"meridia": "Sylkauf",
+			"oferenda": "2 Volva de Fistulor",
+			"kamas": 39889,
+			"meridiaBonus": "Estrelas da Sorte (+1 Star aparece a cada 10 minutos na zona da Floresta Petrificada)"
+		},
+		"5": {
+			"meridia": "Darkchy",
+			"oferenda": "2 Faixa de Omanetta",
+			"kamas": 5233,
+			"meridiaBonus": "Desafio Extra (+1 Desafios contra Piratas de Moon)"
+		},
+		"6": {
+			"meridia": "Marilez",
+			"oferenda": "2 Tecido de Ratrofiado",
+			"kamas": 11126,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Vila de Frigost)"
+		},
+		"7": {
+			"meridia": "Tella",
+			"oferenda": "2 Garra de Pandikaze Zonzeira",
+			"kamas": 15524,
+			"meridiaBonus": "Pontos de Experiencia (+125% XP na zona do Calabouço Toca dos Pandikazes)"
+		},
+		"8": {
+			"meridia": "Davkaz",
+			"oferenda": "7 Pata de Wabbit",
+			"kamas": 1363,
+			"meridiaBonus": "Desafios Aumentados (+150% nos Desafios contra Wabbits)"
+		},
+		"9": {
+			"meridia": "Totot",
+			"oferenda": "20 Lúpulo",
+			"kamas": 1495,
+			"meridiaBonus": "Abundancia de Colheita (+125% Lúpulos coletados pelos Fazendeiros)"
+		},
+		"10": {
+			"meridia": "Inndo",
+			"oferenda": "2 Leite de Dragoperu",
+			"kamas": 4925,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Índigo darão a luz a um bebe extra)"
+		},
+		"11": {
+			"meridia": "Laetux",
+			"oferenda": "2 Dente de Pantanoso",
+			"kamas": 11346,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Turfeira Sem Fundo)"
+		},
+		"12": {
+			"meridia": "Tajonoo",
+			"oferenda": "4 Peixe Empanado",
+			"kamas": 791,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando for Pescadores)"
+		},
+		"13": {
+			"meridia": "Maemon",
+			"oferenda": "2 Cajado da Sorte",
+			"kamas": 1495,
+			"meridiaBonus": "Experiencia de Metamunch (+100% XP contra todos os Chefes de Calabouço)"
+		},
+		"14": {
+			"meridia": "Todobai",
+			"oferenda": "15 [[ Trevo de 5 Folhas]]",
+			"kamas": 791,
+			"meridiaBonus": "Abundancia de Plantas (+125% Trevo de 5 Folhas coletados por Alquimistas)"
+		},
+		"15": {
+			"meridia": "Cycloune",
+			"oferenda": "2 Focinho de Javali das Planícies",
+			"kamas": 2814,
+			"meridiaBonus": "Espólio (+150% Drops contra Javali das Planícies)"
+		},
+		"16": {
+			"meridia": "Orete",
+			"oferenda": "2 Brinquedo da Garota Zoth",
+			"kamas": 16272,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP in Vilarejo dos Zoths)"
+		},
+		"17": {
+			"meridia": "Wish",
+			"oferenda": "1 Pedra de Esmeralda",
+			"kamas": 9103,
+			"meridiaBonus": "Benção de Pão Satrício (Ayerish Kaffee está esperando perto da Taberna de Amakna para conceder uma Benção)"
+		},
+		"18": {
+			"meridia": "Ninefi",
+			"oferenda": "1 Martelo Kispeta",
+			"kamas": 2814,
+			"meridiaBonus": "Experiencia em Profissão (+50% XP para todas as Profissões de Fabricação)"
+		},
+		"19": {
+			"meridia": "Icleen",
+			"oferenda": "15 Manganês",
+			"kamas": 2418,
+			"meridiaBonus": "Abundancia de minério (+150% Manganês coletados por Mineiros)"
+		},
+		"20": {
+			"meridia": "Elosi",
+			"oferenda": "2 Pedra do Broka",
+			"kamas": 38702,
+			"meridiaBonus": "Espólio (+125% Drops na zona do Calabouço da Mina Abandonada de Kifril)"
+		},
+		"21": {
+			"meridia": "Cebeyon",
+			"oferenda": "6 Baba de Papatudo",
+			"kamas": 747,
+			"meridiaBonus": "Pontos de Experiencia (+150% XP contra Papatudos)"
+		},
+		"22": {
+			"meridia": "Konala",
+			"oferenda": "3 Fragmento de Pedra Pontuda",
+			"kamas": 5541,
+			"meridiaBonus": "Desafio Extra (+1 Desafios contra Smagador das Planícies)"
+		},
+		"23": {
+			"meridia": "Perviom",
+			"oferenda": "20 Madeira de Castanheiro",
+			"kamas": 307,
+			"meridiaBonus": "Geração de Recursos (+100% Reaparecimento mais rápido de Madeira coletados por Lenhadores)"
+		},
+		"24": {
+			"meridia": "Socren",
+			"oferenda": "20 Cevada",
+			"kamas": 307,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando in Planícies de Cania)"
+		},
+		"25": {
+			"meridia": "Fala",
+			"oferenda": "2 Lã de Maho Gelifox",
+			"kamas": 39889,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Cavernas dos Gelifox)"
+		},
+		"26": {
+			"meridia": "Dees",
+			"oferenda": "2 Orelha de Aperiglurso",
+			"kamas": 40285,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Colmeia dos Glursos)"
+		},
+		"27": {
+			"meridia": "Sha",
+			"oferenda": "4 Carne Verminada",
+			"kamas": 1101,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Verminada coletados por Caçadores)"
+		},
+		"28": {
+			"meridia": "Clynt",
+			"oferenda": "2 Chifre de Papamute de Guerra",
+			"kamas": 14777,
+			"meridiaBonus": "Desafio Extra (+1 Desafios contra Categoria:Papamutes)"
+		},
+		"29": {
+			"meridia": "Ocarian",
+			"oferenda": "2 Tecido de Pirata Rya",
+			"kamas": 28147,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 10 minutos na zona do Berço da Alma)"
+		},
+		"30": {
+			"meridia": "Mahadine",
+			"oferenda": "5 Pele de Kitsu Nae",
+			"kamas": 7124,
+			"meridiaBonus": "Espólio (+75% Drops contra Categoria: Kitsus)"
+		},
+		"31": {
+			"meridia": "Kimbru",
+			"oferenda": "2 Dente de Larva Esmeralda",
+			"kamas": 3166,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Calabouço das Larvas)"
+		}
+	},
+	"4": {
+		"1": {
+			"meridia": "Azra",
+			"oferenda": "2 Fluido Glacial",
+			"kamas": 1935,
+			"meridiaBonus": "Espólios e experiência de Criaturas Marinhas (+75% XP & Drops contra Criaturas Marinhas)"
+		},
+		"2": {
+			"meridia": "Yamato",
+			"oferenda": "4 Caranguejo Surimi",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de Peixe (+125% Gobião, Gramarão, Caranguejo Surimi, Truta, Peixe-Gatinho, Peixe Empanado, Carpa Diem, Sardinha Brilhante coletados pelos Pescadores)"
+		},
+		"3": {
+			"meridia": "Jebedai",
+			"oferenda": "2 Osso de Fantasma Yokai Fogofox",
+			"kamas": 43980,
+			"meridiaBonus": "Pontos de Experiência (+100% XP na zona da Ilha de Grobe)"
+		},
+		"4": {
+			"meridia": "Typlanet",
+			"oferenda": "2 Escudo do Papatudo",
+			"kamas": 747,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando por Fabricantes)"
+		},
+		"5": {
+			"meridia": "Tasmalin",
+			"oferenda": "1 Dente de Ouro do Smagador",
+			"kamas": 4925,
+			"meridiaBonus": "Pontos de Experiência (+125% XP na zona do Picos Rochosos dos Smagadores)"
+		},
+		"6": {
+			"meridia": "Itourp",
+			"oferenda": "7 Pelos de Milonoke",
+			"kamas": 11126,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Morro dos Uivos)"
+		},
+		"7": {
+			"meridia": "Bensom",
+			"oferenda": "20 Cevada",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de Colheita (+125% Cevada coletados pelos Fazendeiros)"
+		},
+		"8": {
+			"meridia": "Enaibi",
+			"oferenda": "2 Carapaça Verde",
+			"kamas": 923,
+			"meridiaBonus": "Pontos de Experiência (+75% XP contra Tartarugas de Moon e Plantas de Moon)"
+		},
+		"9": {
+			"meridia": "Mak",
+			"oferenda": "2 Carapaça de Scaratos",
+			"kamas": 15261,
+			"meridiaBonus": "Desafios Aumentados (+200% Desafios no calabouço O Labirinto do Minotoror)"
+		},
+		"10": {
+			"meridia": "Nunu",
+			"oferenda": "1 Manjedoura de Freixo",
+			"kamas": 6289,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Púrpura darão à luz a um bebe extra)"
+		},
+		"11": {
+			"meridia": "Jay",
+			"oferenda": "9 Piece of Coco Blop",
+			"kamas": 1187,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 5 minutos na zona do Lago de Cania)"
+		},
+		"12": {
+			"meridia": "Mobbib",
+			"oferenda": "2 Osso de Fantasma Pandikaze",
+			"kamas": 33028,
+			"meridiaBonus": "Espólio (+75% Drops na zona do Ilha de Grobe)"
+		},
+		"13": {
+			"meridia": "Gorzarel",
+			"oferenda": "8 Madeira de Kaliptus",
+			"kamas": 7124,
+			"meridiaBonus": "Abundancia de madeira (+150% Madeira de Ébano e Madeira de Kaliptus coletados pelos Lenhadores)"
+		},
+		"14": {
+			"meridia": "Bunty",
+			"oferenda": "2 Cachimbo Zoth",
+			"kamas": 19483,
+			"meridiaBonus": "Desafios Aumentados (+150% Desafios no Vilarejo dos Zoths)"
+		},
+		"15": {
+			"meridia": "Mascha",
+			"oferenda": "1 Esbofeteador de Freixo",
+			"kamas": 395,
+			"meridiaBonus": "Linha de Produção (25% chance de Faz-tudo fabricarem um item extra)"
+		},
+		"16": {
+			"meridia": "Etnop",
+			"oferenda": "4 Ovo de Dragovo Branco",
+			"kamas": 6948,
+			"meridiaBonus": "Missão Repetível (Quem Mexeu o Meu Ovo? disponível na zona da Montanha dos Smagadores)"
+		},
+		"17": {
+			"meridia": "Sehb",
+			"oferenda": "2 Gelatina de Morango",
+			"kamas": 4529,
+			"meridiaBonus": "Espólio (+100% Drops na Península das Gelatinas)"
+		},
+		"18": {
+			"meridia": "Duc",
+			"oferenda": "2 Rabo de Glursomel",
+			"kamas": 42748,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Monte Tórrido)"
+		},
+		"19": {
+			"meridia": "Tchoub",
+			"oferenda": "10 Ouro",
+			"kamas": 8004,
+			"meridiaBonus": "Abundancia de minério (+150% Ouro coletados pelos Mineiros)"
+		},
+		"20": {
+			"meridia": "Viti",
+			"oferenda": "3 Pelos de Maho Fogofox",
+			"kamas": 22385,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Limites de Fogodala)"
+		},
+		"21": {
+			"meridia": "Scheik",
+			"oferenda": "2 Chifre de Menimino",
+			"kamas": 17855,
+			"meridiaBonus": "Espólio (+125% Drops no calabouço Labirinto do Minotoror)"
+		},
+		"22": {
+			"meridia": "Sylfaen",
+			"oferenda": "2 Carpa Diem",
+			"kamas": 2418,
+			"meridiaBonus": "Geração de Recursos (+150% Reaparecimento mais rápido de Recursos de Coleta na zona do Rio Kawaii e Porto de Madrestam)"
+		},
+		"23": {
+			"meridia": "Katelruz",
+			"oferenda": "2 Bava de Nojoso",
+			"kamas": 10511,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra monstros da Turfeira Sem Fundo)"
+		},
+		"24": {
+			"meridia": "Lakha",
+			"oferenda": "2 Pedra do Smagador",
+			"kamas": 4925,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Montanha dos Smagadores)"
+		},
+		"25": {
+			"meridia": "Rakrevei",
+			"oferenda": "3 Carne Maturada",
+			"kamas": 6289,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Maturada coletados por Caçadores)"
+		},
+		"26": {
+			"meridia": "Fako",
+			"oferenda": "2 Bolsa Suspeita",
+			"kamas": 5893,
+			"meridiaBonus": "Missões e Kamas (+100% Kamas recebidos de Missões)"
+		},
+		"27": {
+			"meridia": "Proff",
+			"oferenda": "3 Orelha de Foxfaiter",
+			"kamas": 10907,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 15 minutos na zona do Morro dos Uivos)"
+		},
+		"28": {
+			"meridia": "Shinkarre",
+			"oferenda": "1 Cristal",
+			"kamas": 4925,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando for Mineiros)"
+		},
+		"29": {
+			"meridia": "Mylka",
+			"oferenda": "4 Pena de Piu Vermelho",
+			"kamas": 439,
+			"meridiaBonus": "Espólio (+75% Drops contra Pius)"
+		},
+		"30": {
+			"meridia": "Franek",
+			"oferenda": "20 Sálvia",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de Plantas (+100% Plantas coletados por Alquimistas)"
+		}
+	},
+	"5": {
+		"1": {
+			"meridia": "Esthoma",
+			"oferenda": "2 Cápsula Explosiva",
+			"kamas": 2946,
+			"meridiaBonus": "Fabrica de fadas (+100% Drops de Cápsula Explosiva, 25% de chance de fabricar um item extra e 10% de chance de preservar os ingredientes quando fabricando Fadas de Artifício)"
+		},
+		"2": {
+			"meridia": "Gymcitro",
+			"oferenda": "1 Língua de Cogudonte",
+			"kamas": 34876,
+			"meridiaBonus": "Pontos de Experiencia (+125% XP na zona da Caverna dos Fungos)"
+		},
+		"3": {
+			"meridia": "Rikku",
+			"oferenda": "2 Cepo de Arvorador Claro",
+			"kamas": 27443,
+			"meridiaBonus": "Espólio (+75% Drops contra Monstros da Árvore Hakam)"
+		},
+		"4": {
+			"meridia": "Malava",
+			"oferenda": "1 Sangue de Oni",
+			"kamas": 7124,
+			"meridiaBonus": "Desafios Aumentados (+250% Desafios contra Onis)"
+		},
+		"5": {
+			"meridia": "Bo",
+			"oferenda": "2 Bigode do Mufafah",
+			"kamas": 11126,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Planícies Gramadas )"
+		},
+		"6": {
+			"meridia": "Bipup",
+			"oferenda": "15 Madeira de Bordo",
+			"kamas": 2418,
+			"meridiaBonus": "Abundancia de madeira (+125% Bombu, Olivioleta e Bordo coletados pelos Lenhadores)"
+		},
+		"7": {
+			"meridia": "Azkatraz",
+			"oferenda": "5 Almôndega de Carne",
+			"kamas": 307,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando na zona do Burgo e nas áreas dos Campos de Gelo)"
+		},
+		"8": {
+			"meridia": "Bigg",
+			"oferenda": "10 Batatas",
+			"kamas": 307,
+			"meridiaBonus": "Missão Repetível (A Missão Repetível fica disponível perto da área do Castelo de Amakna)"
+		},
+		"9": {
+			"meridia": "Bern",
+			"oferenda": "2 Pedra Medicinal",
+			"kamas": 6948,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Desfiladeiro Selvagem )"
+		},
+		"10": {
+			"meridia": "Loumi",
+			"oferenda": "3 Pá de Graveto",
+			"kamas": 307,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Turquesa darão a luz a um bebe extra)"
+		},
+		"11": {
+			"meridia": "Duanaf",
+			"oferenda": "1 Carapaça de Scarafolha Verde",
+			"kamas": 2199,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Planície dos Scarafolhas )"
+		},
+		"12": {
+			"meridia": "Zebdara",
+			"oferenda": "20 Malte",
+			"kamas": 4793,
+			"meridiaBonus": "Abundancia de Colheita (+125% Malte coletados pelos Fazendeiros)"
+		},
+		"13": {
+			"meridia": "Todeb",
+			"oferenda": "1 Dedicatória de Skeunk a Esmeralda",
+			"kamas": 16800,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do calabouço Toca do Skonk)"
+		},
+		"14": {
+			"meridia": "Emil",
+			"oferenda": "2 Adagas de sucata",
+			"kamas": 3518,
+			"meridiaBonus": "Qualidade do item (A qualidade dos itens fabricados em Astrub é aumentada)"
+		},
+		"15": {
+			"meridia": "Nell",
+			"oferenda": "11 Lã de Papatudo",
+			"kamas": 747,
+			"meridiaBonus": "Presentes Surpresa (Papabola Surpresa disponível como um Drop Global)"
+		},
+		"16": {
+			"meridia": "Ku",
+			"oferenda": "40 Urtiga",
+			"kamas": 307,
+			"meridiaBonus": "Geração de Recursos (+100% Reaparecimento mais rápido de Plantas)"
+		},
+		"17": {
+			"meridia": "Kham",
+			"oferenda": "2 Tecido do Rei Nojoso",
+			"kamas": 41912,
+			"meridiaBonus": "Espólio (+150% Drops contra Rei Nojoso)"
+		},
+		"18": {
+			"meridia": "Kevlatahmu",
+			"oferenda": "3 Flor de Bulbiflor",
+			"kamas": 2594,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 5 minutos na zona da Floresta de Pandala )"
+		},
+		"19": {
+			"meridia": "Tyrben",
+			"oferenda": "12 Estanho",
+			"kamas": 3518,
+			"meridiaBonus": "Abundancia de minério (+150% Estanho e Silicato coletados pelosMineiros)"
+		},
+		"20": {
+			"meridia": "Jember",
+			"oferenda": "2 Papel Carbono",
+			"kamas": 2506,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra Dopels de Templo)"
+		},
+		"21": {
+			"meridia": "Ntamak",
+			"oferenda": "1 Manto Violeta",
+			"kamas": 923,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando for Alfaiates)"
+		},
+		"22": {
+			"meridia": "Krisegis",
+			"oferenda": "2 Lã de Yokai Gelifox",
+			"kamas": 42352,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Cavernas dos Gelifox )"
+		},
+		"23": {
+			"meridia": "Osebo",
+			"oferenda": "12 Perca",
+			"kamas": 6289,
+			"meridiaBonus": "Abundancia de Peixe (+150% peixes gigantes de rio coletados pelosPescadores)"
+		},
+		"24": {
+			"meridia": "Daza",
+			"oferenda": "3 Semente de Girassol",
+			"kamas": 923,
+			"meridiaBonus": "Espólio (+125% Drops na zona do Granja do Girassol Faminto)"
+		},
+		"25": {
+			"meridia": "Alikindoy",
+			"oferenda": "1 Sacola de Pequeno Cultivador",
+			"kamas": 483,
+			"meridiaBonus": "Protetores da natureza (5 vezes mais chances de encontrar Protetores de Recursos)"
+		},
+		"26": {
+			"meridia": "Taelstrom",
+			"oferenda": "6 Chifre de Paparneiro",
+			"kamas": 747,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona de Tainela )"
+		},
+		"27": {
+			"meridia": "Miludes",
+			"oferenda": "10 Pão Consistente",
+			"kamas": 2418,
+			"meridiaBonus": "Linha de Produção (25% de chance de fabricar um item extra para Fazendeiros)"
+		},
+		"28": {
+			"meridia": "Izmar",
+			"oferenda": "2 Carne Sanguinolenta",
+			"kamas": 9103,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Sanguinolenta coletados pelos Caçadores)"
+		},
+		"29": {
+			"meridia": "Ani",
+			"oferenda": "2 Pelos de Koalak Florestal",
+			"kamas": 8752,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 5 minutos na zona da Floresta de Kaliptus )"
+		},
+		"30": {
+			"meridia": "Xandra",
+			"oferenda": "7 Casca de Dragovo Dourado",
+			"kamas": 5365,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra Dragovos)"
+		},
+		"31": {
+			"meridia": "Tiny",
+			"oferenda": "2 Lamela de Dramanita",
+			"kamas": 37910,
+			"meridiaBonus": "Espólio (+100% Drops na Floresta Petrificada)"
+		}
+	},
+	"6": {
+		"1": {
+			"meridia": "Namyknof",
+			"oferenda": "5 Pinça do Caranguejo",
+			"kamas": 483,
+			"meridiaBonus": "Desafio Extra (+1 Desafios contra Monstros das Praias)"
+		},
+		"2": {
+			"meridia": "Elgero",
+			"oferenda": "15 Sardinha Brilhante",
+			"kamas": 791,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando na zona da Porto de Madrestam )"
+		},
+		"3": {
+			"meridia": "Mikart",
+			"oferenda": "2 Semente da Discórdia",
+			"kamas": 2506,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Calabouço dos Ferreiros)"
+		},
+		"4": {
+			"meridia": "Martero",
+			"oferenda": "2 Selo Real Falsificado",
+			"kamas": 2726,
+			"meridiaBonus": "Coletores zelosos (+200% Drops para Coletores em todas as Áreas)"
+		},
+		"5": {
+			"meridia": "Aris",
+			"oferenda": "10 Ouro",
+			"kamas": 8004,
+			"meridiaBonus": "A quantidade de Minérios obtidos por Mineiros de todos os níveis é aumentado by 100%."
+		},
+		"6": {
+			"meridia": "Mendelia",
+			"oferenda": "2 Olho de Harrogant",
+			"kamas": 39889,
+			"meridiaBonus": "Espólio Frigostiano (+75% Drops contra todos os 3 chefes e monstros de Frigost)"
+		},
+		"7": {
+			"meridia": "Halden",
+			"oferenda": "2 Incisivo de Kami Gelifox",
+			"kamas": 41912,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra Gelifoxes)"
+		},
+		"8": {
+			"meridia": "Tigibon",
+			"oferenda": "2 Brotos de Bulbambu",
+			"kamas": 2286,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Floresta de Pandala )"
+		},
+		"9": {
+			"meridia": "Verol",
+			"oferenda": "10 Orquídea Freyesca",
+			"kamas": 2418,
+			"meridiaBonus": "Abundancia de Plantas (+150 Orquídea Freyesca coletados pelos Alquimistas)"
+		},
+		"10": {
+			"meridia": "Jibejan",
+			"oferenda": "5 Ponta de Dragoperu",
+			"kamas": 4925,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Amêndoa darão a luz a um bebe extra)"
+		},
+		"11": {
+			"meridia": "Teluomaj",
+			"oferenda": "2 Kokonudo",
+			"kamas": 1187,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Praia da Tartaruga)"
+		},
+		"12": {
+			"meridia": "Aazimar",
+			"oferenda": "2 Varinha de Gelo",
+			"kamas": 2814,
+			"meridiaBonus": "Qualidade do item (A qualidade dos itens fabricados na zona da Burgo é aumentada)"
+		},
+		"13": {
+			"meridia": "Blou",
+			"oferenda": "1 Baba de Cogu Mellus",
+			"kamas": 37163,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Caverna dos Fungos )"
+		},
+		"14": {
+			"meridia": "Yaka",
+			"oferenda": "1 Chave dos Campos",
+			"kamas": 923,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando por Faz-tudo)"
+		},
+		"15": {
+			"meridia": "Bek",
+			"oferenda": "12 Madeira de Cerejeira",
+			"kamas": 4793,
+			"meridiaBonus": "Abundancia de madeira (+125% Madeira de Cerejeira coletados pelosLenhadores)"
+		},
+		"16": {
+			"meridia": "Pytch",
+			"oferenda": "7 Casca de Dragovo Safira",
+			"kamas": 5365,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona da Vilarejo dos Dragovos )"
+		},
+		"17": {
+			"meridia": "Seyroth",
+			"oferenda": "2 Raiz de Bulbig",
+			"kamas": 7828,
+			"meridiaBonus": "Espólio (+150% Drops contra Bulbigs)"
+		},
+		"18": {
+			"meridia": "Redfis",
+			"oferenda": "2 Pele de Dragovo Voador",
+			"kamas": 14293,
+			"meridiaBonus": "Pontos de Experiencia (+125% XP na zona da Calabouço dos Dragovos)"
+		},
+		"19": {
+			"meridia": "Lim",
+			"oferenda": "5 Pele de Kitsu Nufogo",
+			"kamas": 7828,
+			"meridiaBonus": "Desafios Aumentados (+250% Desafios contra Kitsous Nufogo)"
+		},
+		"20": {
+			"meridia": "Grut",
+			"oferenda": "40 Trigo",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de Colheita (+125% Trigo coletados pelos Fazendeiros)"
+		},
+		"21": {
+			"meridia": "Atsu",
+			"oferenda": "2 Concha Marinha",
+			"kamas": 791,
+			"meridiaBonus": "Preços reduzidos (50% de desconto nas taxas para uso de Zaaps, Bancos e Mercados)"
+		},
+		"22": {
+			"meridia": "Gnat",
+			"oferenda": "2 Pinça de Crustocana",
+			"kamas": 2199,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 15 minutos na zona do Praia de Coral )"
+		},
+		"23": {
+			"meridia": "Hellmut",
+			"oferenda": "2 Baba de Krakol",
+			"kamas": 26783,
+			"meridiaBonus": "Espólio (+100% Drops na zona do Folhagem da Árvore Hakam )"
+		},
+		"24": {
+			"meridia": "Azrou",
+			"oferenda": "4 Língua de Pavoroso",
+			"kamas": 923,
+			"meridiaBonus": "Pontos de Experiencia (+75% XP contra Plantas dos Campos)"
+		},
+		"25": {
+			"meridia": "Oopah",
+			"oferenda": "40 Ferro",
+			"kamas": 930,
+			"meridiaBonus": "Geração de Recursos (+150% Reaparecimento mais rápido de Recursos de Coleta na zona da Estepes de Sidimote )"
+		},
+		"26": {
+			"meridia": "Bouliks",
+			"oferenda": "1 Escudo do Lenhador",
+			"kamas": 3518,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando na zona da Floresta de Pandala )"
+		},
+		"27": {
+			"meridia": "Ansoh",
+			"oferenda": "2 Velha Ventosa de Kralamor",
+			"kamas": 43980,
+			"meridiaBonus": "Espólio (+125% Drops na zona do calabouço Antro do Kralamor Gigante)"
+		},
+		"28": {
+			"meridia": "Ikoan",
+			"oferenda": "7 Raiz de Arvraknídeo",
+			"kamas": 1759,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 10 minutos na zona do Bosque das Arak-hai )"
+		},
+		"29": {
+			"meridia": "Poch",
+			"oferenda": "4 Carne Falsificada",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Falsificada coletados pelos Caçadores)"
+		},
+		"30": {
+			"meridia": "Lamarilu",
+			"oferenda": "3 Pele de Mandrina",
+			"kamas": 12886,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP na zona da Ilha do Minotoror )"
+		}
+	},
+	"7": {
+		"1": {
+			"meridia": "Rems",
+			"oferenda": "4 Escama de Chefe Crocodyl",
+			"kamas": 6157,
+			"meridiaBonus": "Espólio (+150% Drops contra Chefes Crocodyl)"
+		},
+		"2": {
+			"meridia": "Yanouchk",
+			"oferenda": "6 Presa de Javali",
+			"kamas": 1055,
+			"meridiaBonus": "Desafio Extra (+1 Desafio na Floresta de Amakna )"
+		},
+		"3": {
+			"meridia": "Sirdal",
+			"oferenda": "7 Poção de Minicura",
+			"kamas": 307,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance de manter os ingredientes quando fabricando for Alquimistas)"
+		},
+		"4": {
+			"meridia": "Eiwech",
+			"oferenda": "2 Bisnaguinha",
+			"kamas": 307,
+			"meridiaBonus": "Qualidade do item (A qualidade dos itens fabricados em Vilarejo de Amakna e Floresta de Amakna é aumentada)"
+		},
+		"5": {
+			"meridia": "Alaokit",
+			"oferenda": "1 Pelos de Kitsu Nakwa",
+			"kamas": 6772,
+			"meridiaBonus": "Desafios Aumentados (+200% nos Desafios na zona do Calabouço dos Kitsunes)"
+		},
+		"6": {
+			"meridia": "Poupik",
+			"oferenda": "40 Peixe-Gatinho",
+			"kamas": 307,
+			"meridiaBonus": "Abundancia de Peixe(+150% a mais de peixes de rio de tamanho médio coletados pelosPescadores)"
+		},
+		"7": {
+			"meridia": "Lazura",
+			"oferenda": "2 Resíduo de Solfatara",
+			"kamas": 31225,
+			"meridiaBonus": "Espólio (+100% Drops em Lágrimas de Uronigrido )"
+		},
+		"8": {
+			"meridia": "Unkn",
+			"oferenda": "8 Lã do Papakool",
+			"kamas": 4002,
+			"meridiaBonus": "Pontos de Experiencia (+200% XP contra Papakools e Papatudos das Cavernas)"
+		},
+		"9": {
+			"meridia": "Blid",
+			"oferenda": "20 Madeira de Freixo",
+			"kamas": 307,
+			"meridiaBonus": "Experiencia em Profissão (+50% XP para todas as Profissões de Coleta)"
+		},
+		"10": {
+			"meridia": "Jihelair",
+			"oferenda": "1 Arco Ecológico",
+			"kamas": 2946,
+			"meridiaBonus": "Reprodução de Dragoperus (Todas as variedades de Dragoperu Ameixa darão a luz a um bebe extra)"
+		},
+		"11": {
+			"meridia": "Oskerine",
+			"oferenda": "10 Bauxita",
+			"kamas": 6289,
+			"meridiaBonus": "Abundancia de minério (+150% Bauxita coletados pelosMineiros)"
+		},
+		"12": {
+			"meridia": "Pasqueoz",
+			"oferenda": "2 Lã de Papamute",
+			"kamas": 12886,
+			"meridiaBonus": "Desafios Aumentados (+200% Desafios nos Campos de Gelo )"
+		},
+		"13": {
+			"meridia": "Klernodie",
+			"oferenda": "2 Pedra de Atomístico",
+			"kamas": 32677,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP em Lágrimas de Uronigrido)"
+		},
+		"14": {
+			"meridia": "Zuart",
+			"oferenda": "2 Correntes Quebradas",
+			"kamas": 3166,
+			"meridiaBonus": "Experiencia no Koliseu (+100% XP na zona do Koliseu)"
+		},
+		"15": {
+			"meridia": "Bouilli",
+			"oferenda": "3 Carne Marmorizada",
+			"kamas": 5365,
+			"meridiaBonus": "Abundancia de caça (+125% Carne Marmorizada coletados pelos Caçadores)"
+		},
+		"16": {
+			"meridia": "Okajin",
+			"oferenda": "2 Lama Venerável",
+			"kamas": 33776,
+			"meridiaBonus": "Espólio (+75% Drops na zona do Arquipélago de Vulkânia )"
+		},
+		"17": {
+			"meridia": "Luzbel",
+			"oferenda": "4 Flor de Dente-de-Leão Diabólico",
+			"kamas": 483,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 10 minutos na zona da Pradarias de Astrub )"
+		},
+		"18": {
+			"meridia": "Titi",
+			"oferenda": "5 Concentrado de Arbusto",
+			"kamas": 791,
+			"meridiaBonus": "Economia de Ingredientes (15% de chance de manter os ingredientes quando fabricando na zona da Canto dos Papatudos )"
+		},
+		"19": {
+			"meridia": "Alucard",
+			"oferenda": "2 Cóccix de Coralador",
+			"kamas": 4002,
+			"meridiaBonus": "Pontos de Experiencia (+125% XP na zona do calabouço Gruta Hesca)"
+		},
+		"20": {
+			"meridia": "Gurvamon",
+			"oferenda": "1 Óleo de Girassol Selvagem",
+			"kamas": 923,
+			"meridiaBonus": "Geração de Recursos (+100% Reaparecimento mais rápido de Cereais coletados pelos Fazendeiros)"
+		},
+		"21": {
+			"meridia": "Alhera",
+			"oferenda": "2 Pedra Preciosa Zoth",
+			"kamas": 17328,
+			"meridiaBonus": "Espólio (+100% Drops no Vilarejo dos Zoths )"
+		},
+		"22": {
+			"meridia": "Tholank",
+			"oferenda": "2 Pena de Gelikano",
+			"kamas": 7476,
+			"meridiaBonus": "Desafio Extra (+1 Desafios na zona do Burgo )"
+		},
+		"23": {
+			"meridia": "Kaoly",
+			"oferenda": "40 Gramarão",
+			"kamas": 307,
+			"meridiaBonus": "Mascotes preparados (+100% nos bônus para Mascotes e Montascotes)"
+		},
+		"24": {
+			"meridia": "Xan",
+			"oferenda": "1 Madeira de Olmo",
+			"kamas": 9895,
+			"meridiaBonus": "Abundancia de madeira (+200% Madeira de Álamo, Madeira de Bambu Sagrado e Madeira de Olmo coletados pelosLenhadores)"
+		},
+		"25": {
+			"meridia": "Anulideven",
+			"oferenda": "1 Pele de Dowa Sang",
+			"kamas": 11346,
+			"meridiaBonus": "Desafios Aumentados (+150% Desafios contra Porcos)"
+		},
+		"26": {
+			"meridia": "Lokhaan",
+			"oferenda": "2 Rabo de Eskimute",
+			"kamas": 15524,
+			"meridiaBonus": "Pontos de Experiencia (+100% XP in Floresta dos Pinheiros Perdidos )"
+		},
+		"27": {
+			"meridia": "Benka",
+			"oferenda": "8 Bolinho Astrubiano",
+			"kamas": 483,
+			"meridiaBonus": "Economia de Ingredientes (10% de chance dos Caçadores manterem os ingredientes quando fabricando)"
+		},
+		"28": {
+			"meridia": "Nobozil",
+			"oferenda": "2 Perônio do Speta",
+			"kamas": 37558,
+			"meridiaBonus": "Estrelas da Sorte (+1 Estrela aparece a cada 5 minutos na zona da Floresta Nevada e Planície de Kifril)"
+		},
+		"29": {
+			"meridia": "Olileb",
+			"oferenda": "5 Pele de Kitsu Nere",
+			"kamas": 7476,
+			"meridiaBonus": "Espólio (+125% Drops na zona do calabouço Toca do Daigoro)"
+		},
+		"30": {
+			"meridia": "Aleb",
+			"oferenda": "4 Sangue do Vampiro",
+			"kamas": 1935,
+			"meridiaBonus": "Espolio e experiencia na Casa Fantasma (+125% XP and Drops na zona do calabouço Casa Fantasma)"
+		}
+	},
+	"8": {},
+	"9": {},
+	"10": {},
+	"11": {
+		"1": {
+			"meridia": "Mitomiel",
+			"oferenda": "2x Cueca de Bwork Arqueiro",
+			"kamas": 2726,
+			"meridiaBonus": "A experiência e espólios obtidos contra todos os monstros têm um aumento de 50% para personagens vestindo calças, cuecas ou similares."
+		},
+		"2": {
+			"meridia": "Nikodeus",
+			"oferenda": "9x Bigode de Kolerrato",
+			"kamas": 5365,
+			"meridiaBonus": "Os espólios obtidos no calabouço Laboratório de Brumen Tinctorias têm um aumento de +125%."
+		},
+		"3": {
+			"meridia": "Miloune",
+			"oferenda": "1x Capa Sombria",
+			"kamas": 439,
+			"meridiaBonus": "15% de chance de manter os ingredientes quando confeccionando na zona de Amakna."
+		},
+		"4": {
+			"meridia": "Kacinka",
+			"oferenda": "2x Selo Real Falsificado",
+			"kamas": 2726,
+			"meridiaBonus": "A experiência obtida contra Bandidos tem um aumento de 75%."
+		},
+		"5": {
+			"meridia": "Mathrû",
+			"oferenda": "2x Pelo de Miaw Selvagem",
+			"kamas": 9103,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 200% na zona do Porto Gélido."
+		},
+		"6": {
+			"meridia": "Hito",
+			"oferenda": "20x Madeira de Castanheiro",
+			"kamas": 307,
+			"meridiaBonus": "As quantidades de Madeira de Castanheiro coletadas por Lenhadores têm um aumento de 125%."
+		},
+		"7": {
+			"meridia": "Pouki",
+			"oferenda": "2x Cálice de Tronks",
+			"kamas": 17064,
+			"meridiaBonus": "+100% de experiência na zona da Selva Obscura."
+		},
+		"8": {
+			"meridia": "Poup",
+			"oferenda": "2x Rabo de Prespic",
+			"kamas": 1187,
+			"meridiaBonus": "Foi criado um desafio extra contra os monstros presentes na zona do Limites da Floresta Maléfica."
+		},
+		"9": {
+			"meridia": "Tilapiatsu",
+			"oferenda": "2x Concha de Fantimoneiro",
+			"kamas": 26475,
+			"meridiaBonus": "+100% de espólios na zona do Berço da Alma."
+		},
+		"10": {
+			"meridia": "Otoul",
+			"oferenda": "28x Gobiões",
+			"kamas": 307,
+			"meridiaBonus": "Uma proliferação extra para todas as variações de Dragoperu Orquídea."
+		},
+		"11": {
+			"meridia": "Namsporp",
+			"oferenda": "4x Escama de Crocodyl",
+			"kamas": 3034,
+			"meridiaBonus": "Um bônus de poder pode ser obtido com a NPC Miss Triste no Vilarejo de Amakna."
+		},
+		"12": {
+			"meridia": "Jacoula",
+			"oferenda": "18x Arraia Azul",
+			"kamas": 8004,
+			"meridiaBonus": "As quantidades de Arraia Azul, Tubarão Martelifoice e Bacalhau coletadas por Pescadores têm um aumento de +150%."
+		},
+		"13": {
+			"meridia": "Dek",
+			"oferenda": "2x Bava Envenenada",
+			"kamas": 12006,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 200% no Pátio do Papatudo Real."
+		},
+		"14": {
+			"meridia": "Flouky",
+			"oferenda": "1x Asa de Dragoperu Ruivo Selvagem",
+			"kamas": 5673,
+			"meridiaBonus": "Os espólios obtidos contra Dragoperus Selvagens são aumentados em 75%."
+		},
+		"15": {
+			"meridia": "Reniator",
+			"oferenda": "2x Farsadagas",
+			"kamas": 2418,
+			"meridiaBonus": "As quantidades de Carnes de nível maior que 100 coletadas por Caçadores têm um aumento de 125%."
+		},
+		"16": {
+			"meridia": "Mustasly",
+			"oferenda": "2x Pele de Ramã de Esgoto",
+			"kamas": 4002,
+			"meridiaBonus": ""
+		},
+		"17": {
+			"meridia": "Messikriss",
+			"oferenda": "1x Carne Macerada",
+			"kamas": 15524,
+			"meridiaBonus": ""
+		},
+		"18": {
+			"meridia": "Annbonny",
+			"oferenda": "2x Pata da Guardiã dos Esgotos",
+			"kamas": 27135,
+			"meridiaBonus": ""
+		},
+		"19": {
+			"meridia": "Waro",
+			"oferenda": "3x Concentrado de Prado",
+			"kamas": 3518,
+			"meridiaBonus": ""
+		},
+		"20": {
+			"meridia": "Julo",
+			"oferenda": "5x Pata de Corvoc",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"21": {
+			"meridia": "Munir",
+			"oferenda": "2x Cloaca do Phrango",
+			"kamas": 25508,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 150% sobre os Monstros da Árvore Hakam."
+		},
+		"22": {
+			"meridia": "Vanderivz",
+			"oferenda": "4x Carne Avariada",
+			"kamas": 1275,
+			"meridiaBonus": "Os bônus concedidos pelas montarias têm um aumento de 100%."
+		},
+		"23": {
+			"meridia": "Angy",
+			"oferenda": "2x Maxilar do Chafer Draugr",
+			"kamas": 3606,
+			"meridiaBonus": "A experiência obtida na zona do Cemitério dos Torturados tem um aumento de 100%."
+		},
+		"24": {
+			"meridia": "Fafah",
+			"oferenda": "20x Aveias",
+			"kamas": 1275,
+			"meridiaBonus": ""
+		},
+		"25": {
+			"meridia": "Lateralus",
+			"oferenda": "2x Lã de Papamute Legendário",
+			"kamas": 16272,
+			"meridiaBonus": ""
+		},
+		"26": {
+			"meridia": "Uicuic",
+			"oferenda": "2x Tatuagem de Garoto Mau",
+			"kamas": 791,
+			"meridiaBonus": "Foi criado um desafio extra contra os monstros presentes na zona da Passagem para Brakmar."
+		},
+		"27": {
+			"meridia": "Tinyrus",
+			"oferenda": "2x Forro de Mopete",
+			"kamas": 25200,
+			"meridiaBonus": "A experiência obtida no calabouço do Dossel do Kimbo tem um aumento de 125%."
+		},
+		"28": {
+			"meridia": "Troyle",
+			"oferenda": "2x Coração de Vaposmag",
+			"kamas": 35227,
+			"meridiaBonus": "A velocidade com que as estrelas aparecem sobre os grupos de monstros aumenta na zona das Lágrimas de Uronigrido. Uma estrela aparece a cada 10 minutos."
+		},
+		"29": {
+			"meridia": "Eltux",
+			"oferenda": "20x Kobalto",
+			"kamas": 1495,
+			"meridiaBonus": "As quantidades de Kobalto coletadas pelos Mineiros têm um aumento de 150%."
+		},
+		"30": {
+			"meridia": "Inooni",
+			"oferenda": "2x Orelha de Gobuster",
+			"kamas": 36019,
+			"meridiaBonus": "As chances de conseguir um espólio na zona da Floresta Nevada aumentam 100%."
+		}
+	},
+	"12": {
+		"1": {
+			"meridia": "Ezimuos",
+			"oferenda": "2x Couro de Papatudo Negro",
+			"kamas": 747,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 200% no Pátio do Papatudo Real."
+		},
+		"2": {
+			"meridia": "Tiris",
+			"oferenda": "1x Chave do Castelo Arenoso",
+			"kamas": 791,
+			"meridiaBonus": "Os artesãos e os ceifeiros economizam 15% de seus ingredientes ao fabricar itens na zona de Sufokia."
+		},
+		"3": {
+			"meridia": "Edacsak",
+			"oferenda": "2x Pele de Pingobeso",
+			"kamas": 17328,
+			"meridiaBonus": "A experiência obtida com os Pingwins tem um aumento de 75%."
+		},
+		"4": {
+			"meridia": "Eltruteht",
+			"oferenda": "20x Madeira de Carvalho",
+			"kamas": 1495,
+			"meridiaBonus": "As quantidades de Madeira recuperadas pelos Lenhadores de todos os níveis têm um aumento de 100%."
+		},
+		"5": {
+			"meridia": "Ologar",
+			"oferenda": "4x Ovo de Dragovo Negro",
+			"kamas": 5365,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 200% na zona dos Túneis Subterrâneos dos Dragovos."
+		},
+		"6": {
+			"meridia": "Adam",
+			"oferenda": "1x Pá de Raspagem",
+			"kamas": 2418,
+			"meridiaBonus": "A quantidade de fichas obtidas no Koliseu tem um aumento de 100%."
+		},
+		"7": {
+			"meridia": "Kountar",
+			"oferenda": "2x Tecido de Dok Alako",
+			"kamas": 7300,
+			"meridiaBonus": "As chances de conseguir um espólio com os Koalaks aumentam 75%."
+		},
+		"8": {
+			"meridia": "Moko",
+			"oferenda": "2x Olho de Asploda",
+			"kamas": 36371,
+			"meridiaBonus": "A experiência obtida nas zonas da Planície de Kifril e da Floresta Nevada tem um aumento de 100%."
+		},
+		"9": {
+			"meridia": "Ingmar",
+			"oferenda": "5x Campânula-branca",
+			"kamas": 12006,
+			"meridiaBonus": "As quantidades de Campânula-branca recuperadas pelos Alquimistas têm um aumento de 175%."
+		},
+		"10": {
+			"meridia": "Foya",
+			"oferenda": "3x Dente de Dragoperu",
+			"kamas": 4925,
+			"meridiaBonus": "Todas as variedades de Dragoperu Marfim capazes de se reproduzir darão à luz um filhote extra."
+		},
+		"11": {
+			"meridia": "Bovjouski",
+			"oferenda": "1x Sandálias Tofuescas",
+			"kamas": 483,
+			"meridiaBonus": "Os Sapateiros economizam 10% de seus ingredients na fabricação de itens."
+		},
+		"12": {
+			"meridia": "Mig",
+			"oferenda": "3x Poção de Cidade: Brakmar",
+			"kamas": 3518,
+			"meridiaBonus": "Uma missão especial repetível está disponível hoje perto das portas de Brakmar. Ela é independente da missão de oferenda e pode ser realizada a partir do nível 20."
+		},
+		"13": {
+			"meridia": "Sêpt",
+			"oferenda": "20x Cobre",
+			"kamas": 307,
+			"meridiaBonus": "A velocidade com que aparecem os minérios de todos os tipos tem um aumento de 100%."
+		},
+		"14": {
+			"meridia": "Jason",
+			"oferenda": "8x Beiços de Álmata",
+			"kamas": 3606,
+			"meridiaBonus": "A experiência obtida na zona da Toca do Mulobo aumenta em 125%."
+		},
+		"15": {
+			"meridia": "Eboren",
+			"oferenda": "4x Couro de Porkasso",
+			"kamas": 1407,
+			"meridiaBonus": "As chances de conseguir um espólio na zona da Planície dos Porkassos aumentam 100%."
+		},
+		"16": {
+			"meridia": "Lucyvan",
+			"oferenda": "2x Embalagem de Nataw Escarlate",
+			"kamas": 3518,
+			"meridiaBonus": "Foi criado um desafio extra contra os Monstros de Nataw."
+		},
+		"17": {
+			"meridia": "Ryf",
+			"oferenda": "15x Kralamor",
+			"kamas": 3518,
+			"meridiaBonus": "As quantidades de Kralamor, Dourada Cinza, Arraia Azul e Tubarão Martelifoice recuperadas pelos pescadores têm um aumento de 150%."
+		},
+		"18": {
+			"meridia": "Sebsokk",
+			"oferenda": "3x Espada de Graveto",
+			"kamas": 307,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 200% em todos os calabouços."
+		},
+		"19": {
+			"meridia": "Reivax",
+			"oferenda": "2x Floco de Neve",
+			"kamas": 3518,
+			"meridiaBonus": "As chances de conseguir um espólio com os Monstros de Nataw aumentam 75%."
+		},
+		"20": {
+			"meridia": "Benjak",
+			"oferenda": "1x Aluminita",
+			"kamas": 307,
+			"meridiaBonus": "Os artesãos e os ceifeiros economizam 15% de seus ingredientes ao fabricar objetos na zona do Território dos Porkos."
+		},
+		"21": {
+			"meridia": "Grug",
+			"oferenda": "3x Dente Afiado",
+			"kamas": 1935,
+			"meridiaBonus": "A experiência obtida na zona do Cemitério dos Heróis aumenta em 100%."
+		},
+		"22": {
+			"meridia": "Maxarés",
+			"oferenda": "2x Nó de Marinheiro",
+			"kamas": 3606,
+			"meridiaBonus": "A velocidade com que as estrelas aparecem sobre os grupos de monstros aumenta nas zonas do Barco Pirata e da Ilha dos Náufragos. Uma estrela aparece a cada 5 minutos."
+		},
+		"23": {
+			"meridia": "Math",
+			"oferenda": "4x Carne Tenra",
+			"kamas": 2199,
+			"meridiaBonus": "As quantidades de Carne Tenra recuperadas pelos Caçadores têm um aumento de 125%."
+		},
+		"24": {
+			"meridia": "Milivar",
+			"oferenda": "1x Trenó de Pão de Especiarias",
+			"kamas": 3518,
+			"meridiaBonus": "Os bônus obtidos com os desafios bem-sucedidos têm um aumento de 150% sobre os Monstros de Nataw."
+		},
+		"25": {
+			"meridia": "Simsof",
+			"oferenda": "4x Presente de Nataw",
+			"kamas": 12006,
+			"meridiaBonus": "Presentes de Nataw foram adicionados aos espólios dos monstros. Ao utilizá-los, você ganhará recursos ou outros itens aleatórios."
+		},
+		"26": {
+			"meridia": "Fhenris",
+			"oferenda": "2x Pelo da Barba do Xamagwin",
+			"kamas": 19790,
+			"meridiaBonus": "As chances de conseguir um espólio no calabouço da Escavação do Pingwin Real aumentam 125%."
+		},
+		"27": {
+			"meridia": "Korri",
+			"oferenda": "1x Pacote de Presente de Chocolate",
+			"kamas": 3518,
+			"meridiaBonus": "A experiência obtida com os monstros de Nataw tem um aumento de 75%."
+		},
+		"28": {
+			"meridia": "Ediva",
+			"oferenda": "4x Presente de Nataw",
+			"kamas": 12006,
+			"meridiaBonus": "A velocidade com que as estrelas aparecem sobe os grupos de monstros aumenta nas zonas do Refúgio, da Terra e da Taiga de Nataw. Uma estrela aparece a cada 15 minutos."
+		},
+		"29": {
+			"meridia": "Cocoyuyu",
+			"oferenda": "20x Centeio",
+			"kamas": 3518,
+			"meridiaBonus": "As quantidades de Centeio e de Arroz recuperadas pelos Fazendeiros têm um aumento de 125%."
+		},
+		"30": {
+			"meridia": "Dari",
+			"oferenda": "2x Semente de Arvorador Sombrio",
+			"kamas": 20934,
+			"meridiaBonus": "As chances de conseguir um espólio na zona da Floresta Obscura aumentam 100%."
+		},
+		"31": {
+			"meridia": "Aisk",
+			"oferenda": "8x Carne no Envelope com Limão",
+			"kamas": 483,
+			"meridiaBonus": "A experiência obtida com as profissões que envolvem a fabricação de itens consumíveis (fazendeiro, caçador, faz-tudo, pescador, e alquimista) tem um aumento de 50%."
+		}
+	}
+}
