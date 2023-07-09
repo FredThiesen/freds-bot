@@ -23,6 +23,9 @@ module.exports = {
 		//the type of almanaxItem is Almanax
 		const title = `**Almanax** de hoje: \n `
 		const almanaxItemString = `> **Item**: \`${almanaxItem.oferenda}\` \n> **Recompensa**: ${almanaxItem.kamas} Kamas\n> **Bônus**: ${almanaxItem.meridiaBonus}`
-		await interaction.reply(title + almanaxItemString)
+		const franceDateString = `\n\nHorário da França: ${date
+			.add(5, "hours")
+			.format("HH:mm")}`
+		await interaction.reply(title + almanaxItemString + franceDateString)
 	},
 }
