@@ -1,5 +1,5 @@
 import { Moment } from "moment"
-import almanax from "../assets/almanax.json"
+const almanax = require("../assets/almanax.json")
 import { Almanax } from "../interfaces/Almanax"
 
 export const getAlmanax = (date: Moment): Almanax => {
