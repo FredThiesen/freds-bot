@@ -1,10 +1,13 @@
 // @ts-nocheck
 import { CommandInteraction, SlashCommandBuilder } from "discord.js"
-import moment from "moment"
+import moment from "moment-timezone"
 import { getAlmanax } from "../scripts/getAlmanax"
 
 //set moment locale to pt-br
 moment.locale("pt-br")
+
+//set moment timezone to brazil
+moment.tz.setDefault("America/Sao_Paulo")
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -14,6 +17,7 @@ module.exports = {
 		if (!interaction.isChatInputCommand()) return
 
 		const date = moment()
+		date.tz("America/Sao_Paulo")
 		const almanaxItem = getAlmanax(date)
 
 		if (!almanaxItem)
@@ -23,9 +27,9 @@ module.exports = {
 		//the type of almanaxItem is Almanax
 		const title = `**Almanax** de hoje: \n `
 		const almanaxItemString = `> **Item**: \`${almanaxItem.oferenda}\` \n> **Recompensa**: ${almanaxItem.kamas} Kamas\n> **Bônus**: ${almanaxItem.meridiaBonus}`
-		const franceDateString = `\n\nHorário da França: ${date
-			.add(5, "hours")
-			.format("HH:mm")}`
+		const franceDateString = `\n\nHorário da França: ${date.format(
+			"HH:mm"
+		)}`
 		await interaction.reply(title + almanaxItemString + franceDateString)
 	},
 }
