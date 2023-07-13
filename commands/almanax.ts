@@ -2,6 +2,7 @@
 import { CommandInteraction, SlashCommandBuilder } from "discord.js"
 import moment from "moment-timezone"
 import { getAlmanax } from "../scripts/getAlmanax"
+import { isObject } from "lodash"
 
 //set moment locale to pt-br
 moment.locale("pt-br")
@@ -20,16 +21,34 @@ module.exports = {
 		date.tz("America/Sao_Paulo")
 		const almanaxItem = getAlmanax(date)
 
-		if (!almanaxItem)
+		if (!isObject(almanaxItem))
 			interaction.reply("Não foi possível encontrar o item do dia")
+
+		const tomorrowDate = moment(date).add(1, "day")
+		const remainigTimeUntilMidnight = moment
+			.duration(
+				//get the remaining time until midnight based on date and return formatted string with moment
+				moment(date).endOf("day").diff(date)
+			)
+			.humanize(true)
+
+		const almanaxItemTomorrow = getAlmanax(tomorrowDate)
 
 		//format the almanax object in a nice way
 		//the type of almanaxItem is Almanax
 		const title = `**Almanax** de hoje: \n `
 		const almanaxItemString = `> **Item**: \`${almanaxItem.oferenda}\` \n> **Recompensa**: ${almanaxItem.kamas} Kamas\n> **Bônus**: ${almanaxItem.meridiaBonus}`
+		const almanaxTomorrowItemString = isObject(almanaxItemTomorrow)
+			? `\n\n > Se prepare para **Amanhã (${remainigTimeUntilMidnight}):** \`${almanaxItemTomorrow.oferenda}\` `
+			: ""
 		const franceDateString = `\n\nHorário da França: ${date.format(
 			"HH:mm"
 		)}`
-		await interaction.reply(title + almanaxItemString + franceDateString)
+		await interaction.reply(
+			title +
+				almanaxItemString +
+				almanaxTomorrowItemString +
+				franceDateString
+		)
 	},
 }
