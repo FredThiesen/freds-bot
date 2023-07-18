@@ -1,0 +1,100 @@
+// 08
+
+2023-08-01: 10 Edelweiss
+2023-08-02: 5 Tofu Egg
+2023-08-03: 3 Bontarian Intercity-Express Potion
+2023-08-04: 2 Mature Ashes
+2023-08-05: 3 Icefish
+2023-08-06: 2 Suntan Lotion
+2023-08-07: 2 Trunkiblop Root
+2023-08-08: 4 Mulish Cat's Boots
+2023-08-09: 40 Wheat
+2023-08-10: 2 Golden Dragoturkey Peak
+2023-08-11: 2 Kapokaza
+2023-08-12: 2 Kanniballs
+2023-08-13: 2 Juvenile Puddle
+2023-08-14: 15 Wild Mint
+2023-08-15: 2 Starfish Eyelid
+2023-08-16: 2 Titinuki Wand
+2023-08-17: 20 Bronze
+2023-08-18: 2 Minokid Horn
+2023-08-19: 20 Hop
+2023-08-20: 3 Piglet Leather
+2023-08-21: 2 Juvenile Smoke
+2023-08-22: 4 Mineral Meat
+2023-08-23: 2 Torpid Bearbarian Hair
+2023-08-24: 2 Mama Bwork Boil
+2023-08-25: 3 Mutant Tofu Tooth
+2023-08-26: 2 Dragostess Skin
+2023-08-27: 2 Harpy Pirate Scale
+2023-08-28: 20 Walnut Wood
+2023-08-29: 2 Blopshroom Flower
+2023-08-30: 1 Dorgan Ation Skin
+2023-08-31: 3 Sesame Seed Bread
+
+// 09
+ 
+2023-09-01: 2 Fisheralak Bone
+2023-09-02: 4 Potion of Old Age
+2023-09-03: 40 Nettles
+2023-09-04: 2 Bestial Brockhard Claw
+2023-09-05: 4 Bamboo Blowgun
+2023-09-06: 1 Crowfox Hair
+2023-09-07: 2 Mofette Stone
+2023-09-08: 15 Shiny Sardine
+2023-09-09: 2 Broken Trident
+2023-09-10: 1 Dragoturkey Wing
+2023-09-11: 2 Dragnarok Hide
+2023-09-12: 2 Spectral Flame
+2023-09-13: 20 Flax
+2023-09-14: 2 Treecherous Bark
+2023-09-15: 3 Rainbow Necklace
+2023-09-16: 2 Mastogobbly Ear
+2023-09-17: 7 Mush Mush Thorn
+2023-09-18: 4 Chafer Bone
+2023-09-19: 20 Walnut Wood
+2023-09-20: 3 Fresh Meat
+2023-09-21: 2 Vor'Om Axe
+2023-09-22: 3 Bangartifoux Hairs
+2023-09-23: 2 Kilibriss Down
+2023-09-24: 4 Lumberjack Hatchet
+2023-09-25: 4 Crocodyl Teeth
+2023-09-26: 21 Obsidian
+2023-09-27: 4 Aerodynamic Pelt
+2023-09-28: 3 Quetsnakiatl Feather
+2023-09-29: 2 Barbrossa's Shirt
+2023-09-30: 2 Air Pikoko Rump
+
+// 10
+
+2023-10-01: 2 Jiangshi-Nobi Bone
+2023-10-02: 20 Oak Wood
+2023-10-03: 3 Twiggy Bow
+2023-10-04: 3 Prespic Peak
+2023-10-05: 3 Crab Stick
+2023-10-06: 2 Floramor Stamen
+2023-10-07: 1 Dark Treechnid Root
+2023-10-08: 4 Oozing Meat
+2023-10-09: 3 Cottage Pie with Onion
+2023-10-10: 10 Ediem Carp
+2023-10-11: 2 Solfatara Residue
+2023-10-12: 3 Bambooto Stalk
+2023-10-13: 4 Kwapa Water
+2023-10-14: 7 Evil Tofu Wing
+2023-10-15: 20 Sage
+2023-10-16: 9 Gobkool Horn
+2023-10-17: 3 Rotten Meat
+2023-10-18: 2 Zoth Smoke Machine
+2023-10-19: 15 Pike
+2023-10-20: 7 Coal Dreggon Shell
+2023-10-21: 4 Countrywoman Pan Fry
+2023-10-22: 7 Tofu Feather
+2023-10-23: 4 Crovus Feather
+2023-10-24: 40 Iron
+2023-10-25: 2 Sabredon Hair
+2023-10-26: 5 Wabbit Teeth
+2023-10-27: 3 Twiggy Wand
+2023-10-28: 20 Hemp
+2023-10-29: 2 Soryo Snowfoux Ear
+2023-10-30: 2 Grabba Skin
+2023-10-31: 4 Bwork Magus Beard Hair

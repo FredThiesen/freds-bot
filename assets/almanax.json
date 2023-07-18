@@ -1286,9 +1286,564 @@
 			"meridiaBonus": "Espolio e experiencia na Casa Fantasma (+125% XP and Drops na zona do calabouço Casa Fantasma)"
 		}
 	},
-	"8": {},
-	"9": {},
-	"10": {},
+	"8": {
+		"1": {
+			"meridia": "",
+			"oferenda": "10 Edelweiss",
+			"kamas": 3518,
+			"meridiaBonus": ""
+		},
+		"2": {
+			"meridia": "",
+			"oferenda": "5 Tofu Egg",
+			"kamas": 439,
+			"meridiaBonus": ""
+		},
+		"3": {
+			"meridia": "",
+			"oferenda": "3 Bontarian Intercity-Express Potion",
+			"kamas": 3518,
+			"meridiaBonus": ""
+		},
+		"4": {
+			"meridia": "",
+			"oferenda": "2 Mature Ashes",
+			"kamas": 16800,
+			"meridiaBonus": ""
+		},
+		"5": {
+			"meridia": "",
+			"oferenda": "3 Icefish",
+			"kamas": 12006,
+			"meridiaBonus": ""
+		},
+		"6": {
+			"meridia": "",
+			"oferenda": "2 Suntan Lotion",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"7": {
+			"meridia": "",
+			"oferenda": "2 Trunkiblop Root",
+			"kamas": 3738,
+			"meridiaBonus": ""
+		},
+		"8": {
+			"meridia": "",
+			"oferenda": "4 Mulish Cat's Boots",
+			"kamas": 439,
+			"meridiaBonus": ""
+		},
+		"9": {
+			"meridia": "",
+			"oferenda": "40 Wheat",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"10": {
+			"meridia": "",
+			"oferenda": "2 Golden Dragoturkey Peak",
+			"kamas": 9103,
+			"meridiaBonus": ""
+		},
+		"11": {
+			"meridia": "",
+			"oferenda": "2 Kapokaza",
+			"kamas": 34128,
+			"meridiaBonus": ""
+		},
+		"12": {
+			"meridia": "",
+			"oferenda": "2 Kanniballs",
+			"kamas": 4398,
+			"meridiaBonus": ""
+		},
+		"13": {
+			"meridia": "",
+			"oferenda": "2 Juvenile Puddle",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"14": {
+			"meridia": "",
+			"oferenda": "15 Wild Mint",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"15": {
+			"meridia": "",
+			"oferenda": "2 Starfish Eyelid",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"16": {
+			"meridia": "",
+			"oferenda": "2 Titinuki Wand",
+			"kamas": 7124,
+			"meridiaBonus": ""
+		},
+		"17": {
+			"meridia": "",
+			"oferenda": "20 Bronze",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"18": {
+			"meridia": "",
+			"oferenda": "2 Minokid Horn",
+			"kamas": 17855,
+			"meridiaBonus": ""
+		},
+		"19": {
+			"meridia": "",
+			"oferenda": "20 Hop",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"20": {
+			"meridia": "",
+			"oferenda": "3 Piglet Leather",
+			"kamas": 1759,
+			"meridiaBonus": ""
+		},
+		"21": {
+			"meridia": "",
+			"oferenda": "2 Juvenile Smoke",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"22": {
+			"meridia": "",
+			"oferenda": "4 Mineral Meat",
+			"kamas": 1055,
+			"meridiaBonus": ""
+		},
+		"23": {
+			"meridia": "",
+			"oferenda": "2 Torpid Bearbarian Hair",
+			"kamas": 42352,
+			"meridiaBonus": ""
+		},
+		"24": {
+			"meridia": "",
+			"oferenda": "2 Mama Bwork Boil",
+			"kamas": 33776,
+			"meridiaBonus": ""
+		},
+		"25": {
+			"meridia": "",
+			"oferenda": "3 Mutant Tofu Tooth",
+			"kamas": 923,
+			"meridiaBonus": ""
+		},
+		"26": {
+			"meridia": "",
+			"oferenda": "2 Dragostess Skin",
+			"kamas": 14293,
+			"meridiaBonus": ""
+		},
+		"27": {
+			"meridia": "",
+			"oferenda": "2 Harpy Pirate Scale",
+			"kamas": 27795,
+			"meridiaBonus": ""
+		},
+		"28": {
+			"meridia": "",
+			"oferenda": "20 Walnut Wood",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"29": {
+			"meridia": "",
+			"oferenda": "2 Blopshroom Flower",
+			"kamas": 4002,
+			"meridiaBonus": ""
+		},
+		"30": {
+			"meridia": "",
+			"oferenda": "1 Dorgan Ation Skin",
+			"kamas": 12006,
+			"meridiaBonus": ""
+		},
+		"31": {
+			"meridia": "",
+			"oferenda": "3 Sesame Seed Bread",
+			"kamas": 3518,
+			"meridiaBonus": ""
+		}
+	},
+	"9": {
+		"1": {
+			"meridia": "",
+			"oferenda": "2 Fisheralak Bone",
+			"kamas": 8752,
+			"meridiaBonus": ""
+		},
+		"2": {
+			"meridia": "",
+			"oferenda": "4 Potion of Old Age",
+			"kamas": 6289,
+			"meridiaBonus": ""
+		},
+		"3": {
+			"meridia": "",
+			"oferenda": "40 Nettles",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"4": {
+			"meridia": "",
+			"oferenda": "2 Bestial Brockhard Claw",
+			"kamas": 40285,
+			"meridiaBonus": ""
+		},
+		"5": {
+			"meridia": "",
+			"oferenda": "4 Bamboo Blowgun",
+			"kamas": 2418,
+			"meridiaBonus": ""
+		},
+		"6": {
+			"meridia": "",
+			"oferenda": "1 Crowfox Hair",
+			"kamas": 10687,
+			"meridiaBonus": ""
+		},
+		"7": {
+			"meridia": "",
+			"oferenda": "2 Mofette Stone",
+			"kamas": 34480,
+			"meridiaBonus": ""
+		},
+		"8": {
+			"meridia": "",
+			"oferenda": "15 Shiny Sardine",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"9": {
+			"meridia": "",
+			"oferenda": "2 Broken Trident",
+			"kamas": 1407,
+			"meridiaBonus": ""
+		},
+		"10": {
+			"meridia": "",
+			"oferenda": "1 Dragoturkey Wing",
+			"kamas": 4925,
+			"meridiaBonus": ""
+		},
+		"11": {
+			"meridia": "",
+			"oferenda": "2 Dragnarok Hide",
+			"kamas": 14293,
+			"meridiaBonus": ""
+		},
+		"12": {
+			"meridia": "",
+			"oferenda": "2 Spectral Flame",
+			"kamas": 5541,
+			"meridiaBonus": ""
+		},
+		"13": {
+			"meridia": "",
+			"oferenda": "20 Flax",
+			"kamas": 2418,
+			"meridiaBonus": ""
+		},
+		"14": {
+			"meridia": "",
+			"oferenda": "2 Treecherous Bark",
+			"kamas": 42352,
+			"meridiaBonus": ""
+		},
+		"15": {
+			"meridia": "",
+			"oferenda": "3 Rainbow Necklace",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"16": {
+			"meridia": "",
+			"oferenda": "2 Mastogobbly Ear",
+			"kamas": 11126,
+			"meridiaBonus": ""
+		},
+		"17": {
+			"meridia": "",
+			"oferenda": "7 Mush Mush Thorn",
+			"kamas": 527,
+			"meridiaBonus": ""
+		},
+		"18": {
+			"meridia": "",
+			"oferenda": "4 Chafer Bone",
+			"kamas": 2023,
+			"meridiaBonus": ""
+		},
+		"19": {
+			"meridia": "",
+			"oferenda": "20 Walnut Wood",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"20": {
+			"meridia": "",
+			"oferenda": "3 Fresh Meat",
+			"kamas": 6289,
+			"meridiaBonus": ""
+		},
+		"21": {
+			"meridia": "",
+			"oferenda": "2 Vor'Om Axe",
+			"kamas": 791,
+			"meridiaBonus": ""
+		},
+		"22": {
+			"meridia": "",
+			"oferenda": "3 Bangartifoux Hairs",
+			"kamas": 18119,
+			"meridiaBonus": ""
+		},
+		"23": {
+			"meridia": "",
+			"oferenda": "2 Kilibriss Down",
+			"kamas": 11566,
+			"meridiaBonus": ""
+		},
+		"24": {
+			"meridia": "",
+			"oferenda": "4 Lumberjack Hatchet",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"25": {
+			"meridia": "",
+			"oferenda": "4 Crocodyl Teeth",
+			"kamas": 3034,
+			"meridiaBonus": ""
+		},
+		"26": {
+			"meridia": "",
+			"oferenda": "21 Obsidian",
+			"kamas": 12006,
+			"meridiaBonus": ""
+		},
+		"27": {
+			"meridia": "",
+			"oferenda": "4 Aerodynamic Pelt",
+			"kamas": 22385,
+			"meridiaBonus": ""
+		},
+		"28": {
+			"meridia": "",
+			"oferenda": "3 Quetsnakiatl Feather",
+			"kamas": 17855,
+			"meridiaBonus": ""
+		},
+		"29": {
+			"meridia": "",
+			"oferenda": "2 Barbrossa's Shirt",
+			"kamas": 5673,
+			"meridiaBonus": ""
+		},
+		"30": {
+			"meridia": "",
+			"oferenda": "2 Air Pikoko Rump",
+			"kamas": 26124,
+			"meridiaBonus": ""
+		}
+	},
+	"10": {
+		"1": {
+			"meridia": "",
+			"oferenda": "2 Jiangshi-Nobi Bone",
+			"kamas": 34128,
+			"meridiaBonus": ""
+		},
+		"2": {
+			"meridia": "",
+			"oferenda": "20 Oak Wood",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"3": {
+			"meridia": "",
+			"oferenda": "3 Twiggy Bow",
+			"kamas": 2418,
+			"meridiaBonus": ""
+		},
+		"4": {
+			"meridia": "",
+			"oferenda": "3 Prespic Peak",
+			"kamas": 1187,
+			"meridiaBonus": ""
+		},
+		"5": {
+			"meridia": "",
+			"oferenda": "3 Crab Stick",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"6": {
+			"meridia": "",
+			"oferenda": "2 Floramor Stamen",
+			"kamas": 18383,
+			"meridiaBonus": ""
+		},
+		"7": {
+			"meridia": "",
+			"oferenda": "1 Dark Treechnid Root",
+			"kamas": 8752,
+			"meridiaBonus": ""
+		},
+		"8": {
+			"meridia": "",
+			"oferenda": "4 Oozing Meat",
+			"kamas": 1671,
+			"meridiaBonus": ""
+		},
+		"9": {
+			"meridia": "",
+			"oferenda": "3 Cottage Pie with Onion",
+			"kamas": 22385,
+			"meridiaBonus": ""
+		},
+		"10": {
+			"meridia": "",
+			"oferenda": "10 Ediem Carp",
+			"kamas": 2418,
+			"meridiaBonus": ""
+		},
+		"11": {
+			"meridia": "",
+			"oferenda": "2 Solfatara Residue",
+			"kamas": 31225,
+			"meridiaBonus": ""
+		},
+		"12": {
+			"meridia": "",
+			"oferenda": "3 Bambooto Stalk",
+			"kamas": 2418,
+			"meridiaBonus": ""
+		},
+		"13": {
+			"meridia": "",
+			"oferenda": "4 Kwapa Water",
+			"kamas": 2286,
+			"meridiaBonus": ""
+		},
+		"14": {
+			"meridia": "",
+			"oferenda": "7 Evil Tofu Wing",
+			"kamas": "não sei quantas",
+			"meridiaBonus": ""
+		},
+		"15": {
+			"meridia": "",
+			"oferenda": "20 Sage",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"16": {
+			"meridia": "",
+			"oferenda": "9 Gobkool Horn",
+			"kamas": 12006,
+			"meridiaBonus": ""
+		},
+		"17": {
+			"meridia": "",
+			"oferenda": "3 Rotten Meat",
+			"kamas": 703,
+			"meridiaBonus": ""
+		},
+		"18": {
+			"meridia": "",
+			"oferenda": "2 Zoth Smoke Machine",
+			"kamas": 15261,
+			"meridiaBonus": ""
+		},
+		"19": {
+			"meridia": "",
+			"oferenda": "15 Pike",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"20": {
+			"meridia": "",
+			"oferenda": "7 Coal Dreggon Shell",
+			"kamas": 4002,
+			"meridiaBonus": ""
+		},
+		"21": {
+			"meridia": "",
+			"oferenda": "4 Countrywoman Pan Fry",
+			"kamas": 1055,
+			"meridiaBonus": ""
+		},
+		"22": {
+			"meridia": "",
+			"oferenda": "7 Tofu Feather",
+			"kamas": 483,
+			"meridiaBonus": ""
+		},
+		"23": {
+			"meridia": "",
+			"oferenda": "4 Crovus Feather",
+			"kamas": 1495,
+			"meridiaBonus": ""
+		},
+		"24": {
+			"meridia": "",
+			"oferenda": "40 Iron",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"25": {
+			"meridia": "",
+			"oferenda": "2 Sabredon Hair",
+			"kamas": 16800,
+			"meridiaBonus": ""
+		},
+		"26": {
+			"meridia": "",
+			"oferenda": "5 Wabbit Teeth",
+			"kamas": 3254,
+			"meridiaBonus": ""
+		},
+		"27": {
+			"meridia": "",
+			"oferenda": "3 Twiggy Wand",
+			"kamas": 307,
+			"meridiaBonus": ""
+		},
+		"28": {
+			"meridia": "",
+			"oferenda": "20 Hemp",
+			"kamas": 6289,
+			"meridiaBonus": ""
+		},
+		"29": {
+			"meridia": "",
+			"oferenda": "2 Soryo Snowfoux Ear",
+			"kamas": 38306,
+			"meridiaBonus": ""
+		},
+		"30": {
+			"meridia": "",
+			"oferenda": "2 Grabba Skin",
+			"kamas": 37163,
+			"meridiaBonus": ""
+		},
+		"31": {
+			"meridia": "",
+			"oferenda": "4 Bwork Magus Beard Hair",
+			"kamas": 2946,
+			"meridiaBonus": ""
+		}
+	},
 	"11": {
 		"1": {
 			"meridia": "Mitomiel",

@@ -2,7 +2,7 @@
 import { CommandInteraction, SlashCommandBuilder } from "discord.js"
 import moment from "moment-timezone"
 import { getAlmanax } from "../scripts/getAlmanax"
-import { isObject } from "lodash"
+import { isObject, isEmpty } from "lodash"
 
 //set moment locale to pt-br
 moment.locale("pt-br")
@@ -37,7 +37,11 @@ module.exports = {
 		//format the almanax object in a nice way
 		//the type of almanaxItem is Almanax
 		const title = `**Almanax** de hoje: \n `
-		const almanaxItemString = `> **Item**: \`${almanaxItem.oferenda}\` \n> **Recompensa**: ${almanaxItem.kamas} Kamas\n> **Bônus**: ${almanaxItem.meridiaBonus}`
+		const almanaxItemString = `> **Item**: \`${almanaxItem.oferenda}\` \n`
+		const almanaxRewardString = `> **Recompensa**: ${almanaxItem.kamas} Kamas\n`
+		const almanaxBonusString =
+			almanaxItem.meridiaBonus.length &&
+			`> **Bônus**: ${almanaxItem.meridiaBonus}`
 		const almanaxTomorrowItemString = isObject(almanaxItemTomorrow)
 			? `\n\n > Se prepare para **Amanhã (${remainigTimeUntilMidnight}):** \`${almanaxItemTomorrow.oferenda}\` `
 			: ""
@@ -47,6 +51,8 @@ module.exports = {
 		await interaction.reply(
 			title +
 				almanaxItemString +
+				almanaxRewardString +
+				almanaxBonusString +
 				almanaxTomorrowItemString +
 				franceDateString
 		)
