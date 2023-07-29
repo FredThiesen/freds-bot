@@ -1284,6 +1284,12 @@
 			"oferenda": "4 Sangue do Vampiro",
 			"kamas": 1935,
 			"meridiaBonus": "Espolio e experiencia na Casa Fantasma (+125% XP and Drops na zona do calabouço Casa Fantasma)"
+		},
+		"31": {
+			"meridia": "",
+			"oferenda": "Pó Noviço",
+			"kamas": 0,
+			"meridiaBonus": ""
 		}
 	},
 	"8": {
