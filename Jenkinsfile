@@ -7,6 +7,11 @@ pipeline {
 				sh "sudo rm -rf /home/ubuntu/.npm/_cacache"
             }
         }
+        stage("Copy Config") {
+            steps {
+                sh "cp /var/lib/jenkins/config.json ./"
+            }
+        }
         stage("Build") {
             steps {
                 sh "npm install"
