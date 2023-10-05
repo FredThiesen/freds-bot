@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { REST, Routes } from "discord.js"
 import { clientId, token } from "./config.json"
-import fs from "node:fs"
+const fs = require("fs")
 
 const commands = []
 // Grab all the command files from the commands directory you created earlier
@@ -12,7 +12,6 @@ const commandFiles = fs
 // Grab the SlashCommandBuilder#toJSON() output of each command's data for deployment
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`)
-	//@ts-ignore
 	commands.push(command.data.toJSON())
 }
 

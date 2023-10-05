@@ -8,11 +8,11 @@ moment.locale("pt-br")
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("user")
-		.setDescription("Quem é esse cara?")
+		.setDescription("Quem é essa pessoa?")
 		.addUserOption((option) =>
 			option
 				.setName("usuario")
-				.setDescription("O nome de usuário do maluco")
+				.setDescription("O nome de usuário do maluco / maluca")
 				.setRequired(true)
 		),
 	async execute(interaction: CommandInteraction) {
@@ -25,7 +25,7 @@ module.exports = {
 		const inputUser = interaction.options.get("usuario")
 
 		await interaction.reply(
-			`Esse maluco é ${
+			`Essa pessoa é ${
 				inputUser?.user?.username
 			}, e entrou no servidor ${moment(
 				//@ts-ignore
