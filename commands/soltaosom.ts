@@ -33,6 +33,8 @@ module.exports = {
 
 		const isUrl = argSongName.includes("https://")
 
+		let sentMessage = null
+
 		console.log("argSongName", argSongName)
 
 		const member = interaction.member as GuildMember
@@ -82,6 +84,18 @@ module.exports = {
 			player.play(audioResource)
 
 			connection.subscribe(player)
+
+			connection.on("stateChange", () => {
+				//if disconnect, stop playing
+				if (connection.state.status === "disconnected") {
+					console.log("stopped")
+					player.stop()
+					//adicionar uma reação na resposta anterior (emoji de check)
+					interaction.fetchReply().then((message) => {
+						message.react("✅")
+					})
+				}
+			})
 		} catch (e) {
 			return interaction.reply(
 				"preciso de um link do youtube, jamelão 👺👺👺👺"
