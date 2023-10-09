@@ -7,11 +7,13 @@ import {
 } from "@discordjs/voice"
 import {
 	CommandInteraction,
+	EmbedBuilder,
 	GuildMember,
 	PermissionsBitField,
 	SlashCommandBuilder,
 } from "discord.js"
 import play, { YouTubeVideo } from "play-dl"
+import DIG from "discord-image-generation"
 
 //@ts-ignore
 module.exports = {
@@ -55,10 +57,10 @@ module.exports = {
 
 		let ytInfo: YouTubeVideo[] | undefined
 
-		if (!isUrl)
-			ytInfo = await play.search(argSongName, {
-				limit: 1,
-			})
+		// if (!isUrl)
+		ytInfo = await play.search(argSongName, {
+			limit: 1,
+		})
 
 		const getMusicSource = () => {
 			if (isUrl) return argSongName
@@ -102,9 +104,50 @@ module.exports = {
 			)
 		}
 
+		console.log("ytInfo", JSON.stringify(ytInfo))
+
+		console.log(
+			"url thumb",
+			//@ts-ignore
+			ytInfo[0]?.thumbnails[0]?.url || ytInfo[0]?.thumbnail?.url
+		)
+
+		const embed = new EmbedBuilder()
+			.setColor(0x6c25be)
+			.setTitle(!!ytInfo ? ytInfo[0].title : "Tocando sua música 📻🎶")
+			.setURL(!!ytInfo ? ytInfo[0].url : "https://youtube.com")
+			.setAuthor({
+				name: !!ytInfo && ytInfo[0]?.channel.name,
+				iconURL: ytInfo[0].channel.icons[0].url,
+				url: ytInfo[0].channel.url,
+			})
+			.setThumbnail(
+				"https://github-production-user-asset-6210df.s3.amazonaws.com/38799478/273669562-727f5410-bbe6-43b9-9f2d-05d3074f13e4.png"
+			)
+			.setImage(
+				//@ts-ignore
+				ytInfo[0]?.thumbnails[0]?.url || ytInfo[0]?.thumbnail?.url
+			)
+			.setTimestamp()
+			.setFooter({
+				text: interaction.user.globalName + " 🎶",
+				iconURL:
+					//get the user avatar
+					interaction.user.avatarURL({ forceStatic: true }) ||
+					//if user has no avatar, get the default discord avatar
+					interaction.user.defaultAvatarURL,
+			})
+
 		if (!!ytInfo)
-			interaction.reply(`Tocando agora: \n > 📻🎶 ${ytInfo[0].title}`)
-		else interaction.reply(`> Tocando sua música 📻🎶`)
+			interaction.reply({
+				content: `Tocando agora: > 📻🎶 ${ytInfo[0].title} \n`,
+				embeds: [embed],
+			})
+		else
+			interaction.reply({
+				content: `> Tocando sua música 📻🎶`,
+				embeds: [embed],
+			})
 	},
 	permissions: [
 		PermissionsBitField.Flags.Connect,
