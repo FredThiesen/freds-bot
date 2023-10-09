@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {
 	DiscordGatewayAdapterCreator,
 	NoSubscriberBehavior,
@@ -13,8 +14,6 @@ import {
 	SlashCommandBuilder,
 } from "discord.js"
 import play, { YouTubeVideo } from "play-dl"
-import DIG from "discord-image-generation"
-
 //@ts-ignore
 module.exports = {
 	data: new SlashCommandBuilder()
