@@ -13,7 +13,8 @@ import {
 	PermissionsBitField,
 	SlashCommandBuilder,
 } from "discord.js"
-import play, { YouTubeVideo } from "play-dl"
+import play from "play-dl"
+
 //@ts-ignore
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -29,15 +30,8 @@ module.exports = {
 		if (!interaction.isCommand()) return
 		if (!interaction.member) return
 
-		// console.log("testando comando somnacaixa")
-		let argSongName = interaction.options.get("musica")?.value as string
-
+		const argSongName = interaction.options.get("musica")?.value as string
 		const isUrl = argSongName.includes("https://")
-
-		let sentMessage = null
-
-		console.log("argSongName", argSongName)
-
 		const member = interaction.member as GuildMember
 
 		const { channel } = member?.voice || {}
@@ -54,10 +48,7 @@ module.exports = {
 				?.voiceAdapterCreator as DiscordGatewayAdapterCreator,
 		})
 
-		let ytInfo: YouTubeVideo[] | undefined
-
-		// if (!isUrl)
-		ytInfo = await play.search(argSongName, {
+		const ytInfo = await play.search(argSongName, {
 			limit: 1,
 		})
 
@@ -87,11 +78,9 @@ module.exports = {
 			connection.subscribe(player)
 
 			connection.on("stateChange", () => {
-				//if disconnect, stop playing
 				if (connection.state.status === "disconnected") {
 					console.log("stopped")
 					player.stop()
-					//adicionar uma reação na resposta anterior (emoji de check)
 					interaction.fetchReply().then((message) => {
 						message.react("✅")
 					})
@@ -102,14 +91,6 @@ module.exports = {
 				"preciso de um link do youtube, jamelão 👺👺👺👺"
 			)
 		}
-
-		console.log("ytInfo", JSON.stringify(ytInfo))
-
-		console.log(
-			"url thumb",
-			//@ts-ignore
-			ytInfo[0]?.thumbnails[0]?.url || ytInfo[0]?.thumbnail?.url
-		)
 
 		const embed = new EmbedBuilder()
 			.setColor(0x6c25be)
@@ -131,9 +112,7 @@ module.exports = {
 			.setFooter({
 				text: interaction.user.globalName + " 🎶",
 				iconURL:
-					//get the user avatar
 					interaction.user.avatarURL({ forceStatic: true }) ||
-					//if user has no avatar, get the default discord avatar
 					interaction.user.defaultAvatarURL,
 			})
 
