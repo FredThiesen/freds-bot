@@ -1,10 +1,17 @@
 // @ts-nocheck
 
-import { Message } from "discord.js"
-const { Client, Events, Collection, GatewayIntentBits } = require("discord.js")
-const fs = require("node:fs")
-const path = require("node:path")
-const { token } = require("./config.json")
+import {
+	Message,
+	Client,
+	Events,
+	Collection,
+	GatewayIntentBits,
+} from "discord.js"
+import { fetchTopPostsFromSubreddit } from "./scripts/fetchTopRedditPost"
+import { sendTopPostsMessage } from "./scripts/sendTopPostsMessage"
+import fs from "node:fs"
+import path from "node:path"
+import { token } from "./config.json"
 
 export const client = new Client({
 	intents: [
@@ -39,8 +46,16 @@ for (const file of commandFiles) {
 	}
 }
 
-client.once(Events.ClientReady, (c) => {
+client.once(Events.ClientReady, async (c) => {
 	console.log(`Ready! Logged in as ${c.user.tag}`)
+
+	try {
+		const topPosts = await fetchTopPostsFromSubreddit()
+
+		sendTopPostsMessage(topPosts, client)
+	} catch (err) {
+		console.error(err)
+	}
 })
 
 client.on(Events.InteractionCreate, async (interaction) => {
@@ -55,7 +70,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 	} catch (error) {
 		console.error(error)
 		await interaction.reply({
-			content: "There was an error while executing this command!",
+			content: "Ops, algo deu errado 🤓",
 			ephemeral: true,
 		})
 	}
