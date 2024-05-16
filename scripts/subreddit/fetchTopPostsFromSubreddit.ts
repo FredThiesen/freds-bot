@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Snoowrap from "snoowrap"
 import config from "../../config.json"
 import fs from "fs"

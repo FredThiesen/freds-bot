@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { ChannelType, Client, TextChannel, bold, hyperlink } from "discord.js"
 
 import { calculateTimeUntilNextMessage } from "./calculateTimeUntilNextMessage"

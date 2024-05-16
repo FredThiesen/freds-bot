@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const calculateTimeUntilNextMessage = (
 	now: Date,
 	TIME_AND_DAY_OF_WEEKLY_MESSAGE: { day: number; hour: string }

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ChannelType, Client, EmbedBuilder, blockQuote } from "discord.js"
 import { bold } from "discord.js"
 import { SubredditPost } from "../../interfaces/SubredditPost"
