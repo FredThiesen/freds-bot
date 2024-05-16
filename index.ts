@@ -1,12 +1,16 @@
-// @ts-nocheck
+import {
+	Message,
+	Client,
+	Events,
+	Collection,
+	GatewayIntentBits,
+} from "discord.js"
+import fs from "node:fs"
+import path from "node:path"
+import { token } from "./config.json"
+import { setupWeeklyMessages } from "./scripts/subreddit/setupWeeklyMessages"
 
-import { Message } from "discord.js"
-const { Client, Events, Collection, GatewayIntentBits } = require("discord.js")
-const fs = require("node:fs")
-const path = require("node:path")
-const { token } = require("./config.json")
-
-export const client = new Client({
+export const client: any = new Client({
 	intents: [
 		GatewayIntentBits.Guilds,
 		GatewayIntentBits.GuildVoiceStates,
@@ -39,8 +43,17 @@ for (const file of commandFiles) {
 	}
 }
 
-client.once(Events.ClientReady, (c) => {
+client.once(Events.ClientReady, async (c) => {
 	console.log(`Ready! Logged in as ${c.user.tag}`)
+
+	const CHANNEL_IDS = [
+		"1240031711530586133",
+		"820745495524933702",
+		"1240337750620897331",
+	]
+	const SUBREDDITS = ["VALORANT", "Brasil", "games"]
+
+	setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
 })
 
 client.on(Events.InteractionCreate, async (interaction) => {
@@ -55,7 +68,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 	} catch (error) {
 		console.error(error)
 		await interaction.reply({
-			content: "There was an error while executing this command!",
+			content: "Ops, algo deu errado 🤓",
 			ephemeral: true,
 		})
 	}
