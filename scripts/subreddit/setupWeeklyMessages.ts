@@ -7,7 +7,7 @@ import { fetchTopPostsFromSubreddit } from "./fetchTopPostsFromSubreddit"
 import { sendTopPostsMessageToSubscribedChannels } from "./sendTopPostsMessageToSubscribedChannels"
 import { SubredditPost } from "../../interfaces/SubredditPost"
 
-const TIME_AND_DAY_OF_WEEKLY_MESSAGE = { day: 4, hour: "20:30" }
+const TIME_AND_DAY_OF_WEEKLY_MESSAGE = { day: 4, hour: "23:59" }
 
 /**
  * Fetches top posts from specified subreddits and sends them to subscribed channels.
