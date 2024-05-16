@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 import {
 	Message,
 	Client,
@@ -7,13 +5,12 @@ import {
 	Collection,
 	GatewayIntentBits,
 } from "discord.js"
-import { fetchTopPostsFromSubreddit } from "./scripts/fetchTopRedditPost"
-import { sendTopPostsMessage } from "./scripts/sendTopPostsMessage"
 import fs from "node:fs"
 import path from "node:path"
 import { token } from "./config.json"
+import { setupWeeklyMessages } from "./scripts/subreddit/setupWeeklyMessages"
 
-export const client = new Client({
+export const client: any = new Client({
 	intents: [
 		GatewayIntentBits.Guilds,
 		GatewayIntentBits.GuildVoiceStates,
@@ -49,13 +46,14 @@ for (const file of commandFiles) {
 client.once(Events.ClientReady, async (c) => {
 	console.log(`Ready! Logged in as ${c.user.tag}`)
 
-	try {
-		const topPosts = await fetchTopPostsFromSubreddit()
+	const CHANNEL_IDS = [
+		"1240031711530586133",
+		"820745495524933702",
+		"1240337750620897331",
+	]
+	const SUBREDDITS = ["VALORANT", "Brasil", "games"]
 
-		sendTopPostsMessage(topPosts, client)
-	} catch (err) {
-		console.error(err)
-	}
+	setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
 })
 
 client.on(Events.InteractionCreate, async (interaction) => {

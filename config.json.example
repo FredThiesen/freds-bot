@@ -1,6 +1,9 @@
 {
         "token": "aaaaa.BBBBbbbb.GGGGBBBBGGGbbbbbggBBggbGBbBGGBbGG",
         "clientId": "111111111111111111",
+        "redditId": "a2a23a3adadasd",
         "redditSecret": "111111111111"
+	"redditUsername": "fafafaf",
+	"redditPassword": "sdsdsfsf"
 }
 

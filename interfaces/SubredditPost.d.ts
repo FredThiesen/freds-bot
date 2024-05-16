@@ -7,4 +7,6 @@ export interface SubredditPost {
 	preview: string
 	created: number
 	thumbnail: string
+	isVideo: boolean
+	embedColor: string
 }
