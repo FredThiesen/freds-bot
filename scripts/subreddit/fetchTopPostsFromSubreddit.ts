@@ -8,7 +8,8 @@ import { SubredditPost } from "../../interfaces/SubredditPost"
 // use snoowrap to fetch the top reddit post on a specific subreddit
 export const fetchTopPostsFromSubreddit = async (
 	subreddit: string,
-	time: "week" | "day" | "hour" | "month" | "year" = "day"
+	time: "week" | "day" | "hour" | "month" | "year" = "day",
+	limit: number = 3
 ): Promise<SubredditPost[]> => {
 	try {
 		const reddit = new Snoowrap({
@@ -21,7 +22,7 @@ export const fetchTopPostsFromSubreddit = async (
 
 		const topPosts = await reddit
 			.getSubreddit(subreddit)
-			.getTop({ time, limit: 3 })
+			.getTop({ time, limit })
 
 		const formattedTopPosts = topPosts.map((post) => {
 			const url = `https://www.reddit.com${post.permalink}`
@@ -84,6 +85,10 @@ const getEmbedColor = (subreddit: string): string => {
 			return "fd4556"
 		case "Brasil":
 			return "009739"
+		case "golpe":
+			return "ff4500"
+		case "antitrampo":
+			return "00000c"
 		default:
 			return "6c25be"
 	}

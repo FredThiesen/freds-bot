@@ -11,6 +11,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { token } from "./config.json"
 import { setupWeeklyMessages } from "./scripts/subreddit/setupWeeklyMessages"
+import { setupDailyMessages } from "./scripts/subreddit/setupDailyMessages"
 
 export const client: any = new Client({
 	intents: [
@@ -53,9 +54,10 @@ client.once(Events.ClientReady, async (c) => {
 		"820745495524933702",
 		"1240337750620897331",
 	]
-	const SUBREDDITS = ["VALORANT", "Brasil", "games"]
+	const SUBREDDITS = ["VALORANT", "memes", "Brasil", "golpe", "antitrampo"]
 
-	setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
+	// setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
+	setupDailyMessages(client, SUBREDDITS, CHANNEL_IDS)
 })
 
 client.on(Events.InteractionCreate, async (interaction) => {
