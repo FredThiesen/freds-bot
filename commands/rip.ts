@@ -1,43 +1,43 @@
 // @ts-nocheck
-import { CommandInteraction, SlashCommandBuilder } from "discord.js"
-import moment from "moment"
+import { CommandInteraction, SlashCommandBuilder } from "discord.js";
+import moment from "moment";
 import {
-	handleImageGeneration,
-	ImageGeneratorEnum,
-} from "../scripts/handleImageGeneration"
+    handleImageGeneration,
+    ImageGeneratorEnum
+} from "../scripts/handleImageGeneration";
 
 //set moment locale to pt-br
-moment.locale("pt-br")
+moment.locale("pt-br");
 
 module.exports = {
-	data: new SlashCommandBuilder()
-		.setName("rip")
-		.setDescription("Press F to pay respects")
-		.addUserOption((option) =>
-			option
-				.setName("usuario")
-				.setDescription("O nome de usuário do maluco")
-				.setRequired(true)
-		),
-	async execute(interaction: CommandInteraction) {
-		if (!interaction.isChatInputCommand()) return
-		// interaction.user is the object representing the User who ran the command
-		// interaction.member is the GuildMember object, which represents the user in the specific guild
+    data: new SlashCommandBuilder()
+        .setName("rip")
+        .setDescription("Press F to pay respects")
+        .addUserOption(option =>
+            option
+                .setName("usuario")
+                .setDescription("O nome de usuário ")
+                .setRequired(true)
+        ),
+    async execute(interaction: CommandInteraction) {
+        if (!interaction.isChatInputCommand()) return;
+        // interaction.user is the object representing the User who ran the command
+        // interaction.member is the GuildMember object, which represents the user in the specific guild
 
-		// if the user is not in a guild, interaction.member will be null
+        // if the user is not in a guild, interaction.member will be null
 
-		const inputUser = interaction.options.get("usuario")
+        const inputUser = interaction.options.get("usuario");
 
-		let avatar = inputUser?.user?.avatarURL({ forceStatic: true })
+        let avatar = inputUser?.user?.avatarURL({ forceStatic: true });
 
-		const img = await handleImageGeneration(
-			String(avatar),
-			ImageGeneratorEnum.RIP
-		)
+        const img = await handleImageGeneration(
+            String(avatar),
+            ImageGeneratorEnum.RIP
+        );
 
-		//send img as gif
-		await interaction.reply({
-			files: [img],
-		})
-	},
-}
+        //send img as gif
+        await interaction.reply({
+            files: [img]
+        });
+    }
+};
