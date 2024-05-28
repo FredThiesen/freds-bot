@@ -77,13 +77,20 @@ module.exports = {
 
             connection.subscribe(player);
 
-            connection.on("stateChange", () => {
-                if (connection.state.status === "disconnected") {
-                    console.log("stopped");
-                    player.stop();
-                    interaction.fetchReply().then(message => {
-                        message.react("✅");
-                    });
+            player.on(AudioPlayerStatus.Idle, () => {
+                interaction.fetchReply().then(message => {
+                    message.react("✅");
+                });
+                connection.destroy(); // Clean up the connection when done
+            });
+
+            //if bot disconnects from channel, stop the streaming
+            connection.on(VoiceConnectionStatus.Disconnected, async () => {
+                try {
+                    stream.stream.destroy();
+                    connection.destroy();
+                } catch (e) {
+                    console.error(e);
                 }
             });
         } catch (e) {
