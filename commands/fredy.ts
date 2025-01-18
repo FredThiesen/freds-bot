@@ -1,92 +1,45 @@
-//@ts-nocheck
-import path from "path";
-import {
-    DiscordGatewayAdapterCreator,
+// @ts-nocheck
+const { SlashCommandBuilder } = require("discord.js");
+const {
+    joinVoiceChannel,
     createAudioPlayer,
     createAudioResource,
-    joinVoiceChannel,
     AudioPlayerStatus,
-    VoiceConnectionStatus,
-    entersState
-} from "@discordjs/voice";
-import { CommandInteraction, GuildMember } from "discord.js";
-import { SlashCommandBuilder } from "discord.js";
+    VoiceConnectionStatus
+} = require("@discordjs/voice");
+const path = require("path");
 
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("freedy")
         .setDescription("Freeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedy...."),
-    async execute(interaction: CommandInteraction) {
-        const member = interaction.member as GuildMember;
-        const { channel } = member?.voice || {};
+    async execute(interaction) {
+        await interaction.reply({ files: ["./assets/fredy.mp3"] });
+        const channel = interaction.member.voice.channel;
         if (!channel) {
             return interaction.reply(
-                "vc precisa estar em um canal pra tocar música, jamelão 👺👺👺👺"
+                "You need to be in a voice channel to use this command."
             );
         }
 
-        try {
-            const player = createAudioPlayer();
+        const connection = joinVoiceChannel({
+            channelId: channel.id,
+            guildId: channel.guild.id,
+            adapterCreator: channel.guild.voiceAdapterCreator
+        });
 
-            const connection = joinVoiceChannel({
-                channelId: channel.id,
-                guildId: interaction.guildId,
-                adapterCreator: interaction.guild
-                    ?.voiceAdapterCreator as DiscordGatewayAdapterCreator
-            });
+        const player = createAudioPlayer();
+        const resource = createAudioResource(
+            path.join(__dirname, "assets", "fredy.mp3")
+        );
 
-            connection.on(VoiceConnectionStatus.Ready, () => {
-                console.log("The bot has connected to the channel!");
-            });
+        player.play(resource);
+        connection.subscribe(player);
 
-            connection.on(VoiceConnectionStatus.Disconnected, async () => {
-                try {
-                    await Promise.race([
-                        entersState(
-                            connection,
-                            VoiceConnectionStatus.Signalling,
-                            5_000
-                        ),
-                        entersState(
-                            connection,
-                            VoiceConnectionStatus.Connecting,
-                            5_000
-                        )
-                    ]);
-                    // Seems to be reconnecting to a new channel - ignore disconnect
-                } catch (error) {
-                    // Seems to be a real disconnect which SHOULDN'T be recovered from
-                    connection.destroy();
-                }
-            });
+        player.on(AudioPlayerStatus.Idle, () => {
+            connection.destroy();
+        });
 
-            connection.subscribe(player);
-
-            // Create an audio resource from the specified file
-            const resourcePath = path.join(__dirname, "../assets", "fredy.mp3");
-            const resource = createAudioResource(resourcePath);
-
-            // Play the audio resource
-            player.play(resource);
-
-            player.on(AudioPlayerStatus.Playing, () => {
-                console.log("The audio player has started playing!");
-            });
-
-            player.on(AudioPlayerStatus.Idle, () => {
-                console.log("The audio player is idle!");
-                connection.destroy(); // Clean up the connection when done
-            });
-
-            player.on("error", error => {
-                console.error("Error:", error.message);
-                interaction.reply("Houve um erro ao tocar o som.");
-            });
-
-            return interaction.reply("Tocando o som do Fredy!");
-        } catch (error) {
-            console.error(error);
-            return interaction.reply("Houve um erro ao tocar o som.");
-        }
+        await interaction.reply("Playing audio in your voice channel.");
     }
 };
