@@ -1,13 +1,13 @@
 // @ts-nocheck
-const { SlashCommandBuilder } = require("discord.js");
-const {
+import { SlashCommandBuilder } from "discord.js";
+import {
     joinVoiceChannel,
     createAudioPlayer,
     createAudioResource,
     AudioPlayerStatus,
     VoiceConnectionStatus
-} = require("@discordjs/voice");
-const path = require("path");
+} from "@discordjs/voice";
+import path from "path";
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -16,9 +16,7 @@ module.exports = {
     async execute(interaction) {
         const channel = interaction.member.voice.channel;
         if (!channel) {
-            return interaction.reply(
-                "You need to be in a voice channel to use this command."
-            );
+            return interaction.reply("Entre em um canal de voz");
         }
 
         const connection = joinVoiceChannel({
@@ -27,9 +25,13 @@ module.exports = {
             adapterCreator: channel.guild.voiceAdapterCreator
         });
 
-        const player = createAudioPlayer();
+        const player = createAudioPlayer({
+            behaviors: {
+                noSubscriber: NoSubscriberBehavior.Play
+            }
+        });
         const resource = createAudioResource(
-            path.join(__dirname, "assets", "fredy.mp3")
+            path.join(__dirname, "../assets", "fredy.mp3")
         );
 
         player.play(resource);
@@ -38,7 +40,5 @@ module.exports = {
         setTimeout(() => {
             connection.destroy();
         }, [10000]);
-
-        await interaction.reply("Playing audio in your voice channel.");
     }
 };
