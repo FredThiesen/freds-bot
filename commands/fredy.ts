@@ -14,7 +14,6 @@ module.exports = {
         .setName("freedy")
         .setDescription("Freeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedy...."),
     async execute(interaction) {
-        await interaction.reply({ files: ["./assets/fredy.mp3"] });
         const channel = interaction.member.voice.channel;
         if (!channel) {
             return interaction.reply(
@@ -36,9 +35,9 @@ module.exports = {
         player.play(resource);
         connection.subscribe(player);
 
-        player.on(AudioPlayerStatus.Idle, () => {
+        setTimeout(() => {
             connection.destroy();
-        });
+        }, [10000]);
 
         await interaction.reply("Playing audio in your voice channel.");
     }
