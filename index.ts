@@ -1,5 +1,3 @@
-//@ts-nocheck
-
 import {
     Message,
     Client,
@@ -10,10 +8,14 @@ import {
 import fs from "node:fs";
 import path from "node:path";
 import { token } from "./config.json";
-import { setupWeeklyMessages } from "./scripts/subreddit/setupWeeklyMessages";
 import { setupDailyMessages } from "./scripts/subreddit/setupDailyMessages";
+import { scheduleBirthdayCheck } from "./scripts/birthday";
 
-export const client: any = new Client({
+interface BotClient extends Client {
+    commands?: Collection<string, any>;
+}
+
+export const client: BotClient = new Client({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildVoiceStates,
@@ -47,17 +49,34 @@ for (const file of commandFiles) {
 }
 
 client.once(Events.ClientReady, async c => {
-    console.log(`Ready! Logged in as ${c.user.tag}`);
+    try {
+        console.log(`Ready! Logged in as ${c.user.tag}`);
 
-    const CHANNEL_IDS = [
-        "1240031711530586133",
-        "820745495524933702",
-        "1240337750620897331"
-    ];
-    const SUBREDDITS = ["VALORANT", "memes", "Brasil", "golpe", "antitrampo"];
+        const CHANNEL_IDS = [
+            "1240031711530586133",
+            "820745495524933702",
+            "1240337750620897331"
+        ];
+        const SUBREDDITS = [
+            "VALORANT",
+            "memes",
+            "Brasil",
+            "golpe",
+            "antitrampo"
+        ];
 
-    // setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
-    setupDailyMessages(client, SUBREDDITS, CHANNEL_IDS);
+        // setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
+        setupDailyMessages(client, SUBREDDITS, CHANNEL_IDS);
+
+        // Agendamento da verificação de aniversários
+
+        //id channel teste
+        // const BIRTHDAY_CHANNEL_ID = "1240031711530586133"; // Substitua pelo ID do canal desejado
+        const BIRTHDAY_CHANNEL_ID = "816855101561372676";
+        scheduleBirthdayCheck(client, BIRTHDAY_CHANNEL_ID);
+    } catch (e) {
+        console.error(e);
+    }
 });
 
 client.on(Events.InteractionCreate, async interaction => {
