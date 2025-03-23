@@ -20,14 +20,10 @@ pipeline {
         }
         stage("Deploy") {
             steps {
-                sh """
-                if pm2 list | grep -q 'bot'; then
-                    sudo pm2 restart bot --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --update-env
-                else
-                    sudo pm2 start index.ts --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --name bot
-                fi
-                """
+                sh "sudo pm2 delete bot || true" // Ignore error if bot doesn't exist
+                sh "sudo pm2 start index.ts --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --name bot"
+                sh "sudo pm2 status bot"
             }
-        }
+}
     }
 }
