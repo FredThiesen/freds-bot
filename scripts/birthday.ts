@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Client, ChannelType, EmbedBuilder, userMention } from "discord.js";
 import birthdayData from "../assets/birthdays_latruepa.json";
 import moment from "moment";
