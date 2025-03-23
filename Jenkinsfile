@@ -1,7 +1,7 @@
 pipeline {
-     agent any
-     stages {
-		stage("Clean") {
+    agent any
+    stages {
+        stage("Clean") {
             steps {
                 sh "sudo rm -rf node_modules"
 				sh "sudo rm -rf /home/ubuntu/.npm/_cacache"
@@ -15,12 +15,18 @@ pipeline {
         stage("Build") {
             steps {
                 sh "npm install"
-				sh "ts-node deployCommands.ts"
+                sh "ts-node deployCommands.ts"
             }
         }
         stage("Deploy") {
             steps {
-                sh "sudo pm2 start index.ts --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --name bot || sudo pm2 restart index.ts --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --name bot"
+                sh """
+                if pm2 list | grep -q 'bot'; then
+                    sudo pm2 restart bot --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --update-env
+                else
+                    sudo pm2 start index.ts --watch --exp-backoff-restart-delay=1000 --restart-delay=3000 --name bot
+                fi
+                """
             }
         }
     }
