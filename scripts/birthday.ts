@@ -2,11 +2,22 @@ import { Client, ChannelType, EmbedBuilder, userMention } from "discord.js";
 import birthdayData from "../assets/birthdays_latruepa.json";
 import moment from "moment";
 
+interface Birthday {
+    id: string;
+    nome: string;
+    date: string;
+}
+
+interface BirthdayData {
+    birthdays: Birthday[];
+}
+
 async function checkAndSendBirthdayMessages(client: Client, channelId: string) {
+    const data: BirthdayData = birthdayData as BirthdayData;
     const today = moment().format("DD-MM");
     console.log(`Today's date: ${today}`);
 
-    const aniversariantes = birthdayData.birthdays.filter(
+    const aniversariantes = data.birthdays.filter(
         birthday => birthday.date === today
     );
     console.log(`Birthdays today: ${JSON.stringify(aniversariantes)}`);
