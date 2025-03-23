@@ -1,92 +1,89 @@
-//@ts-nocheck
-import path from "path";
+// @ts-nocheck
+import { SlashCommandBuilder } from "discord.js";
 import {
-    DiscordGatewayAdapterCreator,
+    joinVoiceChannel,
     createAudioPlayer,
     createAudioResource,
-    joinVoiceChannel,
     AudioPlayerStatus,
-    VoiceConnectionStatus,
-    entersState
+    NoSubscriberBehavior,
+    entersState,
+    VoiceConnectionStatus
 } from "@discordjs/voice";
-import { CommandInteraction, GuildMember } from "discord.js";
-import { SlashCommandBuilder } from "discord.js";
+import path from "path";
 
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("freedy")
         .setDescription("Freeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeedy...."),
-    async execute(interaction: CommandInteraction) {
-        const member = interaction.member as GuildMember;
-        const { channel } = member?.voice || {};
+    async execute(interaction) {
+        const channel = interaction.member.voice.channel;
+
         if (!channel) {
             return interaction.reply(
-                "vc precisa estar em um canal pra tocar música, jamelão 👺👺👺👺"
+                "Por favor, conecte-se a um canal de voz primeiro."
             );
         }
 
-        try {
-            const player = createAudioPlayer();
+        // Cria conexão com o canal de voz
+        const connection = joinVoiceChannel({
+            channelId: channel.id,
+            guildId: channel.guild.id,
+            adapterCreator: channel.guild.voiceAdapterCreator
+        });
 
-            const connection = joinVoiceChannel({
-                channelId: channel.id,
-                guildId: interaction.guildId,
-                adapterCreator: interaction.guild
-                    ?.voiceAdapterCreator as DiscordGatewayAdapterCreator
-            });
+        connection.on(VoiceConnectionStatus.Ready, () => {
+            console.log("Conexão pronta para reproduzir áudio!");
+        });
 
-            connection.on(VoiceConnectionStatus.Ready, () => {
-                console.log("The bot has connected to the channel!");
-            });
+        connection.on(VoiceConnectionStatus.Disconnected, async () => {
+            try {
+                await Promise.race([
+                    entersState(
+                        connection,
+                        VoiceConnectionStatus.Signalling,
+                        5_000
+                    ),
+                    entersState(
+                        connection,
+                        VoiceConnectionStatus.Connecting,
+                        5_000
+                    )
+                ]);
+            } catch {
+                connection.destroy();
+            }
+        });
 
-            connection.on(VoiceConnectionStatus.Disconnected, async () => {
-                try {
-                    await Promise.race([
-                        entersState(
-                            connection,
-                            VoiceConnectionStatus.Signalling,
-                            5_000
-                        ),
-                        entersState(
-                            connection,
-                            VoiceConnectionStatus.Connecting,
-                            5_000
-                        )
-                    ]);
-                    // Seems to be reconnecting to a new channel - ignore disconnect
-                } catch (error) {
-                    // Seems to be a real disconnect which SHOULDN'T be recovered from
-                    connection.destroy();
-                }
-            });
+        // Cria o player de áudio
+        const player = createAudioPlayer({
+            behaviors: {
+                noSubscriber: NoSubscriberBehavior.Play
+            }
+        });
 
-            connection.subscribe(player);
+        // Recurso de áudio (o caminho do arquivo .mp3)
+        const resource = createAudioResource(
+            path.join(__dirname, "../assets", "fredy.mp3")
+        );
 
-            // Create an audio resource from the specified file
-            const resourcePath = path.join(__dirname, "../assets", "fredy.mp3");
-            const resource = createAudioResource(resourcePath);
+        // Assina o player à conexão e inicia o áudio
+        connection.subscribe(player);
+        player.play(resource);
 
-            // Play the audio resource
-            player.play(resource);
+        player.on(AudioPlayerStatus.Playing, () => {
+            console.log("O áudio está sendo reproduzido.");
+        });
 
-            player.on(AudioPlayerStatus.Playing, () => {
-                console.log("The audio player has started playing!");
-            });
+        player.on(AudioPlayerStatus.Idle, () => {
+            console.log("O áudio terminou.");
+            connection.destroy(); // Desconecta ao finalizar o áudio
+        });
 
-            player.on(AudioPlayerStatus.Idle, () => {
-                console.log("The audio player is idle!");
-                connection.destroy(); // Clean up the connection when done
-            });
+        player.on("error", error => {
+            console.error(`Erro no player: ${error.message}`);
+            connection.destroy(); // Certifique-se de liberar a conexão em caso de erro
+        });
 
-            player.on("error", error => {
-                console.error("Error:", error.message);
-                interaction.reply("Houve um erro ao tocar o som.");
-            });
-
-            return interaction.reply("Tocando o som do Fredy!");
-        } catch (error) {
-            console.error(error);
-            return interaction.reply("Houve um erro ao tocar o som.");
-        }
+        return interaction.reply("🪰");
     }
 };
