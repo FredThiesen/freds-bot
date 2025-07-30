@@ -67,7 +67,7 @@ client.once(Events.ClientReady, async c => {
         ];
 
         // setupWeeklyMessages(client, SUBREDDITS, CHANNEL_IDS)
-        setupDailyMessages(client, SUBREDDITS, CHANNEL_IDS);
+        // setupDailyMessages(client, SUBREDDITS, CHANNEL_IDS);
 
         // Agendamento da verificação de aniversários
 
